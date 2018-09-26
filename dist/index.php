@@ -2,227 +2,117 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Anurag Singh</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1.0, user-scalable=no">
-	<meta name="MobileOptimized" content="width">
-	<meta name="HandheldFriendly" content="true">
-	<meta http-equiv="x-ua-compatible" content="IE=edge">
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
-	<link rel="stylesheet" href="css/bootstrap-material-design.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|PT+Serif|Poppins:400,700" rel="stylesheet">
-	<!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.25.0/sweetalert2.min.css"> -->
-	<?php include 'include/head.php'; ?>
-	<style>
-	/* .m8Hub-img img{
-		width: 140px;
-		} */
-	</style>
-
+	<title>Matrix Delhi Dental</title>	
+	<?php include 'include/head.php'; ?>	
 </head>
 <body>
-	<div class="anuragsingh__container">
+	<div class="matrix_container">
 		<!-- Header Include Here -->
 		
 		<?php include 'include/header.php'; ?>
 		<!-- Main Container of Anurag Singh -->
-		<div class="main_anuragsingh__container">
-			<section class="top_banner_slider">
-				<div class="owl-carousel owl-theme" id="mainSlider">
+		<div class="main_matrix_container">
+			<section class="main_banner">
+				<div class="owl-carousel owl-theme top_banner_slider" id="mainSlider">
 					<div class="item">
-						<div class="slide" style="background-image: url('images/banner/header-image-3.jpg');"></div>
+						<div class="slide slide1" style="background-image: url('images/banners/bg-banner-1.jpg');">
+							<div class="content__silider">	
+								<h4 class="sub__title text-uppercase">Make your <span>Dental</span></h4>
+								<h1 class="main__title text-uppercase">Experience a Lot Brighter </h1>
+								<p class="sub_title_2">With best facilities and better equipments, you are in safe hands </p>
+							</div>
+						</div>
 					</div>
 					<div class="item">
-						<div class="slide" style="background-image: url('images/banner/header-image-2.jpg');"></div>
+						<div class="slide slide2" style="background-image: url('images/banners/bg-banner-2.jpg');">
+							<div class="content__silider">	
+								<h4 class="sub__title text-uppercase">Expertise in Major</h4>
+								<h1 class="main__title text-uppercase">Dental Procedures </h1>
+								<p class="sub_title_2">With best facilities and better equipments, you are in safe hands </p>
+							</div>
+						</div>
 					</div>
 				</div>
-
 			</section>
-
-			<section class="section_space bg_grey" id="achivements">
+			<section class="matrix-section">
 				<div class="container">
-					<div class="top_heading">
-						<h2 class="title text-center">Achievements</h2>
-						<p class="sub_title text-center">We respect merit and follows true secularism that says, ‘Justice and development to all, appeasement to none’.</p>
+					<div class="heading-matix">
+						<h2 class="heading-main">Welcome to <span>Matrix Dental and Skin Lounge</span></h2>
+						<p class="heading-sub">Smile….it raises your face value!</p>
+						<img src="images/icons/dental-icon-about.png" class="img_icon" alt="Matrix Dental and Skin Lounge">
 					</div>
-					<div class="achievements">
-						<div class="row">
-							<div class="col-md-3">
-								<div class="achievements_item">
-									<img src="images/group.png" class="icon" alt="">
-									<h4>FOR THE PEOPLE</h4>
-									<p>Our concept of progress means Indians experiencing change that enables them to fulfil their potential trigger an overall improvement in their daily lives and well-being</p>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<div class="achievements_item">
-									<img src="images/road.png" class="icon" alt="">
-									<h4>INFRASTRUCTURE</h4>
-									<p>Implemented together, the development plan will put on high growth path, revive the economy, boost job growth and deliver good governance to the citizens</p>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<div class="achievements_item">
-									<img src="images/police-car.png" class="icon" alt="">
-									<h4>SECURITY FOR ALL</h4>
-									<p>Security is what each one of us, every man and particularly women, experiences while stepping out of home. Shri Anurag Singh extends whatever assistance, motivation and help is required to achieve this goal</p>
-								</div>
-							</div>
-							<div class="col-md-3">
-								<div class="achievements_item">
-									<img src="images/classroom.png" class="icon" alt="">
-									<h4>EDUCATION</h4>
-									<p>We strive to make our contribution in transforming India by supporting youth with their bright future. Digital Technology has emerged as a great enabler. We are unleashing the era of youth development</p>
-								</div>
-							</div>
-						</div>
+					<div class="content_matrix">
+						<p><b>Matrix Dental & Skin Lounge is a best-in-class Dental Clinic in New Delhi,</b> India where all the dental treatments are guided by the team of highly professional and experienced dentists. Our realistic services incorporate a complete range of general and pro dental services. Our patients are our most esteemed strength and we endeavour to ensure you have an ideal dental care.</p>
+						<p>We undertake to disperse the myth that a visit to the dentist ought to be a painful situation. Matrix Dental and skin lounge which is located in Vasant Vihar have built up a warm, inviting office, joining the most recent technologies in dental innovation and above all, a group of exceptionally talented and spurred dentists in South Delhi to give you the best dental care. Matrix Dental and skin lounge are committed to making a difference by making high calibre and incredible esteem, dental care which is smoothly accessible to clients.</p>
+						<p><b>Dr Saurabh Nagpal and Dr Poonam Nagpal</b> , being highly qualified and experienced dentists at Matrix Dental and Skin Lounge, believe that every individual deserves high-quality health and are perfectly aligned with the latest advancements in the dentistry. Matrix Dental and Skin Lounge look forward to giving you the best of dental treatments so that you have the perfect smile.</p>
 					</div>
 				</div>
 			</section>
-
-			<section class="section_space mediagallery" id="mediagallery">
+			<section class="matrix-section top-services" style="background-image: url('images/backgrounds/bg-top-services.jpg')">
 				<div class="container">
-					<div class="top_heading">
-						<h2 class="title text-center">Media Gallery</h2>
-						<p class="sub_title text-center">We respect merit and follows true secularism that says, ‘Justice and development to all, appeasement to none’.</p>
-					</div>
-					<div class="media_images_videos">
-						<div class="row">
-							<div class="col-md-12">
-								<ul class="list-inline text-center">
-									<li class="list-inline-item"><button class="btn btn-raised btn-warning" data-filter=".photos">Photos</button></li>
-									<li class="list-inline-item"><button class="btn btn-outline-warning" data-filter=".videos">Videos</button></li>
-								</ul>
+					<div class="row">
+						<div class="col-md-3">
+							<div class="box top_services_sec">
+								<div class="icon-wrapper"> 
+									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
+								</div>
+								<h2>Teeth Whitening</h2>
+								<p>Tooth lightening involves the utilization of peroxide-based materials to discolour teeth.</p>
 							</div>
 						</div>
-						<div class="items-filter">
-							<div class="row">
-								<div class="col-md-3 mix photos">
-									<a data-fancybox="gallery" class="photo_gallery" href="images/gallery/2.jpg">
-										<div class="hovereffect">
-											<img src="images/gallery/2.jpg" class="img-fluid" width=" " height=" ">
-											<div class="overlay ">
-												<i class="far fa-image"></i>
-											</div>
-										</div>
-									</a>
+						<div class="col-md-3">
+							<div class="box top_services_sec">
+								<div class="icon-wrapper"> 
+									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
 								</div>
-								<div class="col-md-3 mix photos">
-									<a data-fancybox="gallery" class="photo_gallery" href="images/gallery/3.jpeg">
-										<div class="hovereffect">
-											<img src="images/gallery/3.jpeg" class="img-fluid" width=" " height=" ">
-											<div class="overlay ">
-												<i class="far fa-image"></i>
-											</div>
-										</div>
-									</a>
-								</div>
-								<div class="col-md-3 mix photos">
-									<a data-fancybox="gallery" class="photo_gallery" href="images/gallery/4.jpg">
-										<div class="hovereffect">
-											<img src="images/gallery/4.jpg" class="img-fluid" width=" " height=" ">
-											<div class="overlay ">
-												<i class="far fa-image"></i>
-											</div>
-										</div>
-									</a>
-								</div>
-								<div class="col-md-3 mix photos">
-									<a data-fancybox="gallery" class="photo_gallery" href="images/gallery/7.jpg">
-										<div class="hovereffect">
-											<img src="images/gallery/7.jpg" class="img-fluid" width=" " height=" ">
-											<div class="overlay ">
-												<i class="far fa-image"></i>
-											</div>
-										</div>
-									</a>
-								</div>
-								<div class="col-md-3 mix photos">
-									<a data-fancybox="gallery" class="photo_gallery" href="images/gallery/8.jpeg">
-										<div class="hovereffect">
-											<img src="images/gallery/8.jpeg" class="img-fluid" width=" " height=" ">
-											<div class="overlay ">
-												<i class="far fa-image"></i>
-											</div>
-										</div>
-									</a>
-								</div>
-								<div class="col-md-3 mix photos">
-									<a data-fancybox="gallery" class="photo_gallery" href="images/gallery/9.jpg">
-										<div class="hovereffect">
-											<img src="images/gallery/9.jpg" class="img-fluid" width=" " height=" ">
-											<div class="overlay ">
-												<i class="far fa-image"></i>
-											</div>
-										</div>
-									</a>
-								</div>
-								<div class="col-md-3 mix photos">
-									<a data-fancybox="gallery" class="photo_gallery" href="images/gallery/10.jpeg">
-										<div class="hovereffect">
-											<img src="images/gallery/10.jpeg" class="img-fluid" width=" " height=" ">
-											<div class="overlay ">
-
-											</div>
-										</div>
-									</a>
-								</div>
-								<div class="col-md-3 mix photos">
-									<a data-fancybox="gallery" class="photo_gallery" href="images/gallery/11.jpg">
-										<div class="hovereffect">
-											<img src="images/gallery/11.jpg" class="img-fluid" width=" " height=" ">
-											<div class="overlay ">
-												<i class="far fa-image"></i>
-											</div>
-										</div>
-									</a>
-								</div>
+								<h2>Root Canal</h2>
+								<p>Dental implants provide a strong foundation for permanent or removable prosthesis.</p>
 							</div>
 						</div>
-					</div>	
-				</div>
-			</section>
-			<section class="raise_voice" style="background-image: url('https://d1u4oo4rb13yy8.cloudfront.net/article/vvtjridskv-1463759408.jpg')">
-				<div class="raise">
-					<div class="content">
-						<h4 class="main-heading">RAISE YOUR VOICE</h4>
-						<h2 class="sub_heading">VIKAS KI AWAAZ</h2>
-						<p class="para">राष्ट्रवाद हमारी प्रेरणा है तथा अंत्योदय ही हमारा अंतिम लक्ष्य है</p>
+						<div class="col-md-3">
+							<div class="box top_services_sec">
+								<div class="icon-wrapper"> 
+									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
+								</div>
+								<h2>Cosmetic Design</h2>
+								<p>Dentistry isn't any longer simply a case of filling and removing teeth. </p>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<div class="box top_services_sec">
+								<div class="icon-wrapper"> 
+									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
+								</div>
+								<h2> Dental Tourism</h2>
+								<p>Dental business is of course catching on in no time, though' the conception remains new.</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
-			<section class="section_space mediagallery">
+			<section class="matrix-section">
 				<div class="container">
-					<div class="top_heading">
-						<h2 class="title text-center">Social News</h2>
-						<p class="sub_title text-center">Connect With Us.</p>
+					<div class="heading-matix">
+						<h2 class="heading-main">Welcome to <span>Matrix Dental and Skin Lounge</span></h2>
+						<p class="heading-sub">Smile….it raises your face value!</p>
+						<img src="images/icons/dental-icon-about.png" class="img_icon" alt="Matrix Dental and Skin Lounge">
 					</div>
-				</div>
-			</section>
-
-			<section class="anurag__subscribe" style="background-image: url('images/suscribe_bg.jpg');">
-				<div class="main__content text-center">
-					<h2 class="main__title mb-3 wow slideInUp" style="visibility: visible; animation-name: slideInUp;"> SUBSCRIBE FOR</h2>
-					<h4 class="sub__title mb-4 wow slideInUp" style="visibility: visible; animation-name: slideInUp;">Our Latest Updates</h4>
-					<form action="" class="wow slideInUp" style="visibility: visible; animation-name: slideInUp;">
-						<div class="input-group big__input mb-2 mr-sm-2">							
-							<input type="text" class="form-control" id="" placeholder="Enter Your Email Address">
-							<div class="input-group-prepend">
-								<div class="input-group-text text-white"><i class="fas fa-paper-plane"></i></div>
-							</div>
-						</div>
-					</form>
+					<div class="content_matrix">
+						<p><b>Matrix Dental & Skin Lounge is a best-in-class Dental Clinic in New Delhi,</b> India where all the dental treatments are guided by the team of highly professional and experienced dentists. Our realistic services incorporate a complete range of general and pro dental services. Our patients are our most esteemed strength and we endeavour to ensure you have an ideal dental care.</p>
+						<p>We undertake to disperse the myth that a visit to the dentist ought to be a painful situation. Matrix Dental and skin lounge which is located in Vasant Vihar have built up a warm, inviting office, joining the most recent technologies in dental innovation and above all, a group of exceptionally talented and spurred dentists in South Delhi to give you the best dental care. Matrix Dental and skin lounge are committed to making a difference by making high calibre and incredible esteem, dental care which is smoothly accessible to clients.</p>
+						<p><b>Dr Saurabh Nagpal and Dr Poonam Nagpal</b> , being highly qualified and experienced dentists at Matrix Dental and Skin Lounge, believe that every individual deserves high-quality health and are perfectly aligned with the latest advancements in the dentistry. Matrix Dental and Skin Lounge look forward to giving you the best of dental treatments so that you have the perfect smile.</p>
+					</div>
 				</div>
 			</section>
 		</div>
-		<?php include 'include/footer.php'; ?>
-		<?php include 'include/foot.php'; ?>
+		<?php  include 'include/footer.php'; ?>
+		<?php  include 'include/foot.php'; ?>
 		<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.25.0/sweetalert2.min.js"></script> -->
 		
 		<script>
 
 			$(document).ready(function() {
 				$('.photo_gallery').fancybox({});
-
 				$('#mainSlider').owlCarousel({
 					items:1,
 					autoplay : false,
@@ -239,27 +129,27 @@
 					animateIn : 'fadeIn',
 					animateOut : 'fadeOut'			
 				});	
-				$("a.linkscroll").on('click', function(event) {
+				// $("a.linkscroll").on('click', function(event) {
 
-					if (this.hash !== "") {
+				// 	if (this.hash !== "") {
 
-						event.preventDefault();
-						var hash = this.hash;
+				// 		event.preventDefault();
+				// 		var hash = this.hash;
 
-						$('html, body').animate({
-							scrollTop: $(hash).offset().top - 80
-						}, 800, function(){
+				// 		$('html, body').animate({
+				// 			scrollTop: $(hash).offset().top - 80
+				// 		}, 800, function(){
 
-							window.location.hash = hash;
-						});
-					} 
-				});
+				// 			window.location.hash = hash;
+				// 		});
+				// 	} 
+				// });
 
 			});
 
-			var containerEl = document.querySelector('.items-filter');
-			var mixer = mixitup(containerEl);
-			mixer.filter('.photos');
+			// var containerEl = document.querySelector('.items-filter');
+			// var mixer = mixitup(containerEl);
+			// mixer.filter('.photos');
 			
 		</script>	
 	</body>

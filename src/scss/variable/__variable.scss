@@ -1,5 +1,8 @@
- 
-$mainFont :  'Roboto', sans-serif;
+  
+$mainFont :  'Raleway', sans-serif;
+// 300, 400, 800
+$secondFont :  'Merriweather', serif;
+//  400, 700
 // Color Define
 
 
@@ -12,6 +15,9 @@ $full-width : 100%;
 
 $bg-primary: #6495ed;
 $bg-white: #ffffff;
+
+$prime: #004a77;
+$second: #b46c8e;
 
 @mixin padding($values...) {    
 	@each $var in $values {

@@ -52,37 +52,37 @@ gulp.task('styles', function () {
 
 // All External CSS Included Files
 gulp.task('css', function(){
-	return gulp.src(['node_modules/bootstrap/dist/css/bootstrap.min.css'])
+	return gulp.src([''])
 	.pipe(gulp.dest('dist/css/'));
 });
 
 // All External CSS Included Files
 gulp.task('js', function(){
-	return gulp.src(['node_modules/bootstrap/dist/js/bootstrap.min.js','node_modules/jquery/dist/jquery.min.js','node_modules/popper.js/dist/umd/popper.min.js'])
+	return gulp.src(['','',''])
 	.pipe(gulp.dest('dist/js/'));
 });
 
 
 // Scripts
-// gulp.task('scripts', function () {
-// 	console.log('scripts log');  
+gulp.task('scripts', function () {
+	console.log('scripts log');  
 
-// 	return gulp.src(['src/scripts/menu.js', 'src/scripts/script.js'])
-// 	.pipe(plumber(function (err) {
-// 		console.log('Scripts Task Error')
-// 		console.log(err);
-// 		this.emit('end');
-// 	}))
-// 	.pipe(sourcemaps.init())
-// 	.pipe(babel({
-// 		presets : ['es2015']
-// 	}))
-// 	.pipe(uglify())
-// 	.pipe(concat('scripts.js'))
-// 	.pipe(sourcemaps.write())
-// 	.pipe(gulp.dest(DIST_PATH + '/js'))
-// 	.pipe(livereload());
-// });
+	return gulp.src(['src/scripts/menu.js', 'src/scripts/script.js'])
+	.pipe(plumber(function (err) {
+		console.log('Scripts Task Error')
+		console.log(err);
+		this.emit('end');
+	}))
+	.pipe(sourcemaps.init())
+	.pipe(babel({
+		presets : ['es2015']
+	}))
+	.pipe(uglify())
+	.pipe(concat('scripts.js'))
+	.pipe(sourcemaps.write())
+	.pipe(gulp.dest(DIST_PATH + '/js'))
+	.pipe(livereload());
+});
 
 
 // Images
@@ -111,7 +111,7 @@ gulp.task('clean' , function() {
 
 
 // Default
-gulp.task('default', ['images', 'styles', 'css', 'js'] ,function () {
+gulp.task('default', ['images', 'scripts', 'styles', 'css', 'js'] ,function () {
 	console.log('default log');  
 });
 
@@ -124,7 +124,7 @@ gulp.task('export', function () {
 
 gulp.task('watch', ['default'], function(){
 	console.log('Watch Changes');
-//	gulp.watch(SCRIPTS_PATH, ['scripts']);
+	gulp.watch(SCRIPTS_PATH, ['scripts']);
 	// gulp.watch(CSS_PATH, ['styles']);
 	gulp.watch(SCSS_PATH, ['styles']);
 })
