@@ -67,7 +67,7 @@
 							<div class="icon col-2"><i class="fas fa-mobile-alt fa-2x"></i></div>
 							<div class="info col-10">
 								<a href="javascript:void(0)" class="d-block">+91-8826001000</a>
-								<a href="" class="d-block">+91-8826002000</a>
+								<a href="javascript:void(0)" class="d-block">+91-8826002000</a>
 							</div>
 						</div>
 						
@@ -91,7 +91,7 @@
 <header class="main_menu">
 	<nav class="navbar navbar-expand-md navbar-light">
 		<div class="collapse navbar-collapse" id="navbarCollapse">
-			<ul class="navbar-nav mr-auto ml-auto">
+			<ul class="navbar-nav mr-auto">
 				<li class="nav-item active">
 					<a class="nav-link" href="#">Home</a>
 				</li>
@@ -121,6 +121,11 @@
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href="#">Feedback</a>
+				</li>
+			</ul>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="#">Request An Appointment</a>
 				</li>
 			</ul> 
 		</div>
