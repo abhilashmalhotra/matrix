@@ -1,5 +1,7 @@
+
 $(document).ready(function() { $('body').bootstrapMaterialDesign(); });
 $('[data-toggle="tooltip"]').tooltip();
+
 function modalAnimation(modal, animation) {
 	$('#'+ modal +' .modal-dialog').attr('class', 'modal-dialog modal-dialog-centered modal-lg ' + animation + '  animated');
 };
@@ -26,10 +28,9 @@ function modalAnimation(modal, animation) {
 // 		$('#register').modal('hide');		
 // 		$('#login').modal('show');				
 // 	});
-	
-	
-// 	ma5menu({
-// 		position: 'right',
-// 		closeOnBodyClick: true
-// 	});
-// });
+
+AOS.init();	
+ma5menu({
+	position: 'right',
+	closeOnBodyClick: true
+});

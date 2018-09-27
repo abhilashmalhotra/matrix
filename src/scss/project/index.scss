@@ -32,6 +32,9 @@
 		bottom: 0;
 		padding: 10px 27px;
 		border-top-left-radius:10px;
+		@include respond-to($large-phone) {
+			padding: 5px 20px;
+		}
 		p{
 			color: #fff;
 			margin-bottom: 0;
@@ -122,8 +125,28 @@
 		position: absolute;
 		top: 35%;
 		right: 6%;
+		@include respond-to($mac) {
+			padding: 20px;
+			background: rgba(255, 255, 255, 0.43);
+		}
+		@include respond-to($phone) {
+			top: 50%;
+			left: 50%;
+			right: auto;
+			transform: translate(-50%,-50%);
+			width: 75%;
+		}
+		@include respond-to($phone) {
+			background: rgba(255, 255, 255, 0.68);
+		}
 		.sub__title{
 			font-size: 28px;
+			@include respond-to($large-phone) {
+				font-size: 20px;
+			}
+			@include respond-to($phone) {
+				font-size: 14px;
+			}
 			span{
 				color: $prime;
 				font-weight: 800;
@@ -131,10 +154,25 @@
 		}
 		.main__title{
 			font-size: 40px;
+			@include respond-to($large-phone) {
+				font-size: 28px;
+			}
+			@include respond-to($phone) {
+				font-size: 18px;
+			}
+			@include respond-to($i-phone) {
+				font-size: 16px;
+			}
 		}
 		.sub_title_2{
 			font-size: 15px;
 			color: rgb(59, 59, 59);
+			@include respond-to($large-phone) {
+				font-size: 13px;
+			}
+			@include respond-to($phone) {
+				font-size: 12px;
+			}
 		}
 	}
 }
@@ -143,18 +181,53 @@
 		position: absolute;
 		top: 35%;
 		right: 6%;
+		@include respond-to($mac) {
+			padding: 20px;
+			background: rgba(255, 255, 255, 0.43);
+			@include respond-to($phone) {
+				background: rgba(255, 255, 255, 0.68);
+			}
+		}
+		@include respond-to($phone) {
+			top: 50%;
+			left: 50%;
+			right: auto;
+			transform: translate(-50%,-50%);
+			width: 75%;
+		}
 		.sub__title{
 			font-size: 28px;
+			@include respond-to($large-phone) {
+				font-size: 20px;
+			}
+			@include respond-to($phone) {
+				font-size: 14px;
+			}
 
 		}
 		.main__title{
 			font-size: 40px;
 			color: $prime;
 			font-weight: 800;
+			@include respond-to($large-phone) {
+				font-size: 28px;
+			}
+			@include respond-to($phone) {
+				font-size: 18px;
+			}
+			@include respond-to($i-phone) {
+				font-size: 16px;
+			}
 		}
 		.sub_title_2{
 			font-size: 15px;
 			color: rgb(59, 59, 59);
+			@include respond-to($large-phone) {
+				font-size: 13px;
+			}
+			@include respond-to($phone) {
+				font-size: 12px;
+			}
 		}
 	}
 }
@@ -170,6 +243,9 @@
 	margin-bottom: 3rem;
 	.heading-main{
 		font-size: 30px;
+		@include respond-to($tablet-portrait) {
+			font-size: 23px;
+		}
 		span{
 			color: $prime;
 			font-weight: 800;
@@ -186,12 +262,22 @@
 		left: 50%;
 		transform: translate(-50%,-50%);
 		width: 90px;
+		@include respond-to($tablet-portrait) {
+			width: 60px;
+		}
 	}
 }
 .content_matrix{
+	@include respond-to($phone) {
+		width: 90%;
+		margin: 0 auto; 
+	}
 	p{
 		font-size: 14px;
 		text-align: justify;
+		@include respond-to($i-phone-6) {
+			font-size: 13px;
+		}
 	}
 }
 
@@ -202,6 +288,10 @@
 	background-size: cover;
 	background-attachment: fixed;
 	background-position: top center;
+	@include respond-to($tablet-portrait) {
+		padding: 4rem 0 2rem;
+		background-attachment: scroll;
+	}
 	&:before{
 		content: '';
 		position: absolute;
@@ -220,6 +310,14 @@
 	background: #fff;
 	border-radius: 4px;
 	border:1px solid #ccc;
+	@include respond-to($tablet-portrait) {
+		margin-bottom: 3rem;
+		min-height: 200px;
+	}
+	@include respond-to($mid-phone) {
+		margin-bottom: 3rem;
+		min-height: auto;
+	}
 	&:hover{
 		border:1px solid #a1effd;
 	}
@@ -250,19 +348,33 @@
 	border-radius: .125rem;
 	background-clip: border-box;
 	border: 0;
+	@include respond-to($tablet-portrait) {
+		margin-bottom: 2rem;
+	}
 	.doc_image{
 		width: 40%;
 		float: left;
+		@include respond-to($phone) {
+			width: 100%;
+			float: none;
+		}
 	}
 	.doc_info{
 		width: 60%;
 		float: right;
 		padding: 10px;
+		@include respond-to($phone) {
+			width: 100%;
+			float: none;
+		}
 		h4{
 			font-weight: 800;
 			font-size: 18px;
 			margin-bottom: 0;
 			min-height: 40px;
+			@include respond-to($phone) {
+				min-height: auto;
+			}
 		}
 		.badge-color{
 			background-color: $second;
@@ -373,6 +485,9 @@
 }
 .doctors_home{
 	padding: 2rem 0 5rem;
+	@include respond-to($phone) {
+		padding:1rem 0 1rem;
+	}
 }
 .testimonial_bg{
 	min-height: 500px;
@@ -380,6 +495,9 @@
 	background-size: cover;
 	background-attachment: fixed;
 	position: relative;
+	@include respond-to($tablet-portrait) {
+		background-attachment: scroll;
+	}
 	&:before{
 		content: '';
 		position: absolute;
@@ -399,6 +517,12 @@
 .testimonial_items{
 	position: relative;
 	min-height: 500px;
+	@include respond-to($phone) {
+		min-height: 545px;
+	}
+	@include respond-to($i-phone) {
+		min-height: 620px;
+	}
 }
 .testimonials_home{
 	position: absolute;
@@ -481,6 +605,10 @@
 			min-height: 45px;
 			margin-right: 10px;
 			@include transition(all 0.3s ease-in-out);
+			@include respond-to($i-phone) {
+				min-width: 30px;
+				min-height: 30px;
+			}
 			i{
 				margin-right: 0;
 			}
@@ -499,6 +627,10 @@
 			min-height: 45px;
 			margin-left: 10px;
 			@include transition(all 0.3s ease-in-out);
+			@include respond-to($i-phone) {
+				min-width: 30px;
+				min-height: 30px;
+			}
 			i{
 				margin-right: 0;
 			}
@@ -516,6 +648,9 @@
 	padding: 2rem 0 2rem;
 	.book_icon{
 		width: 75px;
+		@include respond-to($tablet-portrait) {
+			width: 50px;
+		}
 	}
 	.form_book{
 		width:90%;

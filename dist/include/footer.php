@@ -1,7 +1,7 @@
 <footer class="footer__matrix">
 	<div class="container">
 		<div class="row justify-content-between">
-			<div class="col-md-2">
+			<div class="col-md-2 col-sm-6">
 				<div class="footer_head">
 					<h2 class="foot_head">Useful Link</h2>
 					<ul class="list-inline list_foot">
@@ -14,7 +14,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-2">
+			<div class="col-md-2 col-sm-6">
 				<div class="footer_head">
 					<h2 class="foot_head">Services</h2>
 					<ul class="list-inline list_foot">

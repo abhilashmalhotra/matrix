@@ -55,7 +55,7 @@
 			<section class="matrix-section top-services" style="background-image: url('images/backgrounds/bg-top-services.jpg')">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-6">
 							<div class="box top_services_sec">
 								<div class="icon-wrapper"> 
 									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
@@ -64,7 +64,7 @@
 								<p>Tooth lightening involves the utilization of peroxide-based materials to discolour teeth.</p>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-6">
 							<div class="box top_services_sec">
 								<div class="icon-wrapper"> 
 									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
@@ -73,7 +73,7 @@
 								<p>Dental implants provide a strong foundation for permanent or removable prosthesis.</p>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-6">
 							<div class="box top_services_sec">
 								<div class="icon-wrapper"> 
 									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
@@ -82,7 +82,7 @@
 								<p>Dentistry isn't any longer simply a case of filling and removing teeth. </p>
 							</div>
 						</div>
-						<div class="col-md-3">
+						<div class="col-md-3 col-sm-6">
 							<div class="box top_services_sec">
 								<div class="icon-wrapper"> 
 									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
@@ -103,7 +103,7 @@
 					</div>
 					<div class="doctors">
 						<div class="row">
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-6">
 								<div class="single-service-item">
 									<div class="single-service">
 										<img class="img-fluid" src="images/service/1.jpg" alt="">
@@ -113,7 +113,7 @@
 									</div>	
 								</div>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-6">
 								<div class="single-service-item">
 									<div class="single-service">
 										<img class="img-fluid" src="images/service/2.jpg" alt="">
@@ -123,7 +123,7 @@
 									</div>	
 								</div>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-6">
 								<div class="single-service-item">
 									<div class="single-service">
 										<img class="img-fluid" src="images/service/3.jpg" alt="">
@@ -133,7 +133,7 @@
 									</div>	
 								</div>
 							</div>
-							<div class="col-md-3">
+							<div class="col-md-3 col-sm-6">
 								<div class="single-service-item">
 									<div class="single-service">
 										<img class="img-fluid" src="images/service/4.jpg" alt="">
@@ -194,7 +194,7 @@
 							</div>
 							<form action="" class="form_book">
 								<div class="row">
-									<div class="col-md-6">
+									<div class="col-md-6 col-sm-6">
 										<div class="form-group">
 											<label for="exampleInputEmail1" class="bmd-label-floating">Name</label>
 											<input type="text" class="form-control" id="exampleInputEmail1">
@@ -202,7 +202,7 @@
 											<!-- <span class="error text-danger">Please Enter Name</span> -->
 										</div>
 									</div>
-									<div class="col-md-6">
+									<div class="col-md-6 col-sm-6">
 										<div class="form-group">
 											<label for="exampleInputEmail1" class="bmd-label-floating">Mobile No.</label>
 											<input type="text" class="form-control" id="exampleInputEmail1">
@@ -210,7 +210,7 @@
 											<!-- <span class="error text-danger">Please Enter Mobile No.</span> -->
 										</div>
 									</div>
-									<div class="col-md-6">
+									<div class="col-md-6 col-sm-6">
 										<div class="form-group">
 											<label for="exampleInputEmail1" class="bmd-label-floating">Email ID</label>
 											<input type="text" class="form-control" id="exampleInputEmail1">
@@ -218,7 +218,7 @@
 											<!-- <span class="error text-danger">Please Enter Email ID</span> -->
 										</div>
 									</div>
-									<div class="col-md-6">
+									<div class="col-md-6 col-sm-6">
 										<div class="form-group">
 											<label for="exampleInputEmail1" class="bmd-label-floating">Date</label>
 											<input type="text" class="form-control" id="exampleInputEmail1">
@@ -294,7 +294,7 @@
 				$('.photo_gallery').fancybox({});
 				$('#mainSlider').owlCarousel({
 					items:1,
-					autoplay : false,
+					autoplay : true,
 					autoplayTimeout : 6000,
 					autoplayHoverPause:true,
 					smartSpeed:450,
@@ -310,7 +310,7 @@
 				});	
 				$('#testimonialSlider').owlCarousel({
 					items:1,
-					autoplay : false,
+					autoplay : true,
 					autoplayTimeout : 6000,
 					autoplayHoverPause:true,
 					smartSpeed:450,

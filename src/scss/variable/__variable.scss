@@ -52,6 +52,7 @@ $second: #b46c8e;
 $x-small : '(max-width: 320px)';
 $small : '(max-width: 360px)';
 $i-phone : '(max-width: 375px)';
+$i-phone-6 : '(max-width: 414px)';
 $phone : '(max-width: 480px)';
 $mid-phone : '(max-width: 575px)';
 $large-phone : '(max-width: 640px)';
@@ -74,6 +75,6 @@ $retina: '(min--moz-device-pixel-ratio: 1.5),
 	}
 }
 
-@include respond-to($i-phone) {
+@include respond-to($tablet-portrait) {
 	
 }
