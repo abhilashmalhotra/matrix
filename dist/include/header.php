@@ -125,7 +125,7 @@
 			</ul>
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="#">Request An Appointment</a>
+					<a class="nav-link" href="#requestAppointment"><i class="far fa-calendar-alt"></i>  Request An Appointment</a>
 				</li>
 			</ul> 
 		</div>

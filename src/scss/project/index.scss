@@ -15,11 +15,15 @@
 .custom-file-control, .form-control, .is-focused .custom-file-control, .is-focused .form-control{
 	background-image: linear-gradient(0deg,$prime 2px,rgba(0,150,136,0) 0),linear-gradient(0deg,#aba9a9 1px,transparent 0);
 }
+.is-focused [class*=" bmd-label"], .is-focused [class^=bmd-label]{
+	color:$prime;
+}
 .text-white{
 	color: #fff !important; 
 }
 .main_banner{
 	position: relative;
+	z-index: 0;
 	.working_hours{
 		background: $second;
 		z-index: 1;
@@ -363,4 +367,164 @@
 .serv-rmbtn:hover,.serv-rmbtn:focus {
 	background: #333;
 	color: #fff;
+}
+.testimonial_home_container{
+	padding: 0 0 2rem;
+}
+.doctors_home{
+	padding: 2rem 0 5rem;
+}
+.testimonial_bg{
+	min-height: 500px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+	&:before{
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		opacity: 0.8;
+		background: -moz-linear-gradient(200deg, rgba(70,199,207,0.8) 0%, rgba(123,100,203,0.8) 100%);
+		background: -webkit-linear-gradient(200deg, rgba(70,199,207,0.8) 0%, rgba(123,100,203,0.8) 100%);
+		background: linear-gradient(200deg, rgba(70,199,207,0.8) 0%, rgba(123,100,203,0.8) 100%);
+	}
+}
+.bookAppoint_bg{
+	background: #f7f7f7;
+}
+.testimonial_items{
+	position: relative;
+	min-height: 500px;
+}
+.testimonials_home{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform:translate(-50%,-50%);		
+	width: 75%;
+	.testimonial_data{
+		background: #fff;
+		padding: 20px;
+		text-align: center;
+		position: relative;
+		&:before{
+			content: '';
+			display: block;
+			position: absolute;
+			left: 50%;
+			margin-left: -10px;
+			width: 0;
+			height: 0;
+			border-style: solid;
+			border-width: 10px;
+			top: -20px;
+			border-color: transparent transparent #fff transparent;
+			bottom: -20px;
+			top: auto;
+			border-color: #fff transparent transparent transparent;
+		}
+		h2{
+			font-size: 20px;
+			color: $second;
+			font-weight: 800;
+		}
+		p{
+			font-size: 13px;
+			margin-bottom: 0;
+		}
+
+	}
+	.user_data{
+		margin-top: 1.5rem;
+		.user_img{
+			width: 75px;
+			margin: 0 auto;
+		}
+		.username{
+			color:#fff;
+			font-size: 15px;
+			margin-top: 10px;
+			text-transform: uppercase;
+			font-family: $mainFont;
+			font-weight: 800;
+			margin-bottom: 5px;			
+		}
+		.location{
+			font-size: 13px;
+			background: #fff;
+			display: inline-block;
+			font-family: $mainFont;
+			padding: 3px 10px;
+			text-transform: uppercase;
+			border-radius: 4px;
+			i{
+				margin-right: 5px;
+			}
+		}
+	}
+}
+.testimonial_slider{
+	position: relative;
+	.owl-nav{
+		position: absolute;
+		left:50%;
+		bottom: 8%;
+		transform: translateX(-50%);
+		.owl-prev{
+			color:#fff !important;
+			border:2px solid #fff !important;
+			min-width: 45px;
+			min-height: 45px;
+			margin-right: 10px;
+			@include transition(all 0.3s ease-in-out);
+			i{
+				margin-right: 0;
+			}
+			&:focus{
+				outline: none;
+			}
+			&:hover{
+				background: #fff;
+				color:#000 !important;
+			}
+		}
+		.owl-next{
+			color:#fff !important;
+			border:2px solid #fff !important;
+			min-width: 45px;
+			min-height: 45px;
+			margin-left: 10px;
+			@include transition(all 0.3s ease-in-out);
+			i{
+				margin-right: 0;
+			}
+			&:focus{
+				outline: none;
+			}
+			&:hover{
+				background: #fff;
+				color:#000 !important;
+			}
+		}
+	}
+}
+.book-an-appointment{
+	padding: 2rem 0 2rem;
+	.book_icon{
+		width: 75px;
+	}
+	.form_book{
+		width:90%;
+		margin:0 auto;
+	}
+	
+}
+span.error{
+	position: absolute;
+	margin-top: 0;
+	font-size: .75rem;
 }

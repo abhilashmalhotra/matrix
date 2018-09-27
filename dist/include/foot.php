@@ -4,4 +4,5 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<script src="js/jquery.fancybox.min.js"></script>
 	<script src="js/mixitup.min.js"></script>
+	<script src="js/scripts.js"></script>
 	

@@ -149,26 +149,97 @@
 					
 				</div>
 			</section>
-			<!-- <section class="matrix-section book_appoing_bg" style="background-color: #ccc;">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-4">
+			<section class="matrix-section testimonial_home_container">
+				<div class="row">
+					<div class="col-md-6 testimonial_bg" style="background-image: url('images/backgrounds/testimonail-bg.jpg')">
+						<!-- Testimonials -->
+						<div class="owl-carousel owl-theme testimonial_slider" id="testimonialSlider">
+							<div class="item">
+								<div class="testimonial_items">
+									<div class="testimonials_home">
+										<div class="testimonial_data">						
+											<h2>Friendly staff, very helpful.</h2>
+											<p>  I was able to get a booking the moment I contacted them. The staff are friendly, and the check itself was painless. I also booked in for a clean-up which was also very easy. I would recommend to anyone looking for a south Delhi dental option. </p>
+										</div>
+										<div class="user_data text-center">
+											<img src="https://placeimg.com/75/75/people" class="img-fluid rounded-circle user_img" alt="">
+											<p class="username">Shikha Sharma</p>
+											<p class="location"><i class="fas fa-map-marker-alt"></i> Janakpuri</p>
+										</div>
+									</div>	
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimonial_items">
+									<div class="testimonials_home">
+										<div class="testimonial_data">						
+											<h2>Friendly staff, very helpful.</h2>
+											<p>  I was able to get a booking the moment I contacted them. The staff are friendly, and the check itself was painless. I also booked in for a clean-up which was also very easy. I would recommend to anyone looking for a south Delhi dental option. </p>
+										</div>
+										<div class="user_data text-center">
+											<img src="https://placeimg.com/75/75/nature" class="img-fluid rounded-circle user_img" alt="">
+											<p class="username">Shikha Sharma</p>
+											<p class="location"><i class="fas fa-map-marker-alt"></i> Janakpuri</p>
+										</div>
+									</div>	
+								</div>
+							</div>
+						</div>					
+					</div>
+					<div class="col-md-6 bookAppoint_bg" id="requestAppointment">
+						<div class="book-an-appointment">
 							<div class="heading-matix">
-								<h2 class="heading-main text-left">Working <span>Hours</span></h2>
+								<h2 class="heading-main">Book an <span>Appointment</span></h2>							
+								<img src="images/icons/dental-icon-appointments.png" class="img_icon book_icon" alt="Matrix Dental and Skin Lounge">
 							</div>
-						</div>
-						<div class="col-md-8">
-							<div class="heading-matix">
-								<h2 class="heading-main text-left">Book an <span>Appointment</span></h2>
-							</div>
-							<div class="booking_form">
-								
-							</div>
+							<form action="" class="form_book">
+								<div class="row">
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="exampleInputEmail1" class="bmd-label-floating">Name</label>
+											<input type="text" class="form-control" id="exampleInputEmail1">
+											<i class="fas fa-user prefix"></i>
+											<!-- <span class="error text-danger">Please Enter Name</span> -->
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="exampleInputEmail1" class="bmd-label-floating">Mobile No.</label>
+											<input type="text" class="form-control" id="exampleInputEmail1">
+											<i class="fas fa-mobile-alt prefix"></i>
+											<!-- <span class="error text-danger">Please Enter Mobile No.</span> -->
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="exampleInputEmail1" class="bmd-label-floating">Email ID</label>
+											<input type="text" class="form-control" id="exampleInputEmail1">
+											<i class="far fa-envelope prefix"></i>
+											<!-- <span class="error text-danger">Please Enter Email ID</span> -->
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="exampleInputEmail1" class="bmd-label-floating">Date</label>
+											<input type="text" class="form-control" id="exampleInputEmail1">
+											<i class="far fa-calendar-alt prefix"></i>
+											<!-- <span class="error text-danger">Please Enter Email ID</span> -->
+										</div>
+									</div>
+									<div class="col-md-12 mt-3">
+										<img src="images/captcha.jpg" class="img-fluid" alt="">
+									</div>
+									<div class="col-md-12 text-center mt-4">
+										<a href="javascript:void(0)" class="btn btn btn-raised matrix_btn">Book Now</a>
+									</div>
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>
-			</section> -->
-			<section class="matrix-section">
+			</section>
+			
+			<section class="matrix-section doctors_home">
 				<div class="container">
 					<div class="heading-matix">
 						<h2 class="heading-main">Our Distinguished <span>Dental Specialists</span></h2>
@@ -237,6 +308,56 @@
 					animateIn : 'fadeIn',
 					animateOut : 'fadeOut'			
 				});	
+				$('#testimonialSlider').owlCarousel({
+					items:1,
+					autoplay : false,
+					autoplayTimeout : 6000,
+					autoplayHoverPause:true,
+					smartSpeed:450,
+					loop:true,
+					margin:0,
+					nav:true,
+					dots : false,
+					mouseDrag : false,
+					touchDrag : true,
+					navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],	
+					animateIn : 'rollIn',
+					animateOut : 'rollOut'			
+				});	
+				$('a[href*="#"]')
+
+				.not('[href="#"]')
+				.not('[href="#0"]')
+				.click(function(event) {
+					
+					if (
+						location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+						&& 
+						location.hostname == this.hostname
+						) {
+						
+						var target = $(this.hash);
+					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+					
+					if (target.length) {
+						
+						event.preventDefault();
+						$('html, body').animate({
+							scrollTop: target.offset().top
+						}, 1000, function() {
+							
+							var $target = $(target);
+							$target.focus();
+							if ($target.is(":focus")) { 
+								return false;
+							} else {
+								$target.attr('tabindex','-1');
+								$target.focus();
+							};
+						});
+					}
+				}
+			});
 				// $("a.linkscroll").on('click', function(event) {
 
 				// 	if (this.hash !== "") {
