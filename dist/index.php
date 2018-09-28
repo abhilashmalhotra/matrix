@@ -40,15 +40,15 @@
 			</section>
 			<section class="matrix-section">
 				<div class="container">
-					<div class="heading-matix">
+					<div class="heading-matix wow fadeInUp" data-aos="fade-up">
 						<h2 class="heading-main">Welcome to <span>Matrix Dental and Skin Lounge</span></h2>
 						<p class="heading-sub">Smile….it raises your face value!</p>
 						<img src="images/icons/dental-icon-about.png" class="img_icon" alt="Matrix Dental and Skin Lounge">
 					</div>
 					<div class="content_matrix">
-						<p><b>Matrix Dental & Skin Lounge is a best-in-class Dental Clinic in New Delhi,</b> India where all the dental treatments are guided by the team of highly professional and experienced dentists. Our realistic services incorporate a complete range of general and pro dental services. Our patients are our most esteemed strength and we endeavour to ensure you have an ideal dental care.</p>
-						<p>We undertake to disperse the myth that a visit to the dentist ought to be a painful situation. Matrix Dental and skin lounge which is located in Vasant Vihar have built up a warm, inviting office, joining the most recent technologies in dental innovation and above all, a group of exceptionally talented and spurred dentists in South Delhi to give you the best dental care. Matrix Dental and skin lounge are committed to making a difference by making high calibre and incredible esteem, dental care which is smoothly accessible to clients.</p>
-						<p><b>Dr Saurabh Nagpal and Dr Poonam Nagpal</b> , being highly qualified and experienced dentists at Matrix Dental and Skin Lounge, believe that every individual deserves high-quality health and are perfectly aligned with the latest advancements in the dentistry. Matrix Dental and Skin Lounge look forward to giving you the best of dental treatments so that you have the perfect smile.</p>
+						<p class="wow fadeInUp" data-aos="fade-right"><b>Matrix Dental & Skin Lounge is a best-in-class Dental Clinic in New Delhi,</b> India where all the dental treatments are guided by the team of highly professional and experienced dentists. Our realistic services incorporate a complete range of general and pro dental services. Our patients are our most esteemed strength and we endeavour to ensure you have an ideal dental care.</p>
+						<p class="wow fadeInUp" data-aos="fade-right">We undertake to disperse the myth that a visit to the dentist ought to be a painful situation. Matrix Dental and skin lounge which is located in Vasant Vihar have built up a warm, inviting office, joining the most recent technologies in dental innovation and above all, a group of exceptionally talented and spurred dentists in South Delhi to give you the best dental care. Matrix Dental and skin lounge are committed to making a difference by making high calibre and incredible esteem, dental care which is smoothly accessible to clients.</p>
+						<p class="wow fadeInUp" data-aos="fade-right"><b>Dr Saurabh Nagpal and Dr Poonam Nagpal</b> , being highly qualified and experienced dentists at Matrix Dental and Skin Lounge, believe that every individual deserves high-quality health and are perfectly aligned with the latest advancements in the dentistry. Matrix Dental and Skin Lounge look forward to giving you the best of dental treatments so that you have the perfect smile.</p>
 					</div>
 				</div>
 			</section>
@@ -56,7 +56,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-3 col-sm-6">
-							<div class="box top_services_sec">
+							<div class="box top_services_sec wow fadeInUp" data-aos="fade-right">
 								<div class="icon-wrapper"> 
 									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
 								</div>
@@ -65,7 +65,7 @@
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6">
-							<div class="box top_services_sec">
+							<div class="box top_services_sec wow fadeInUp" data-aos="fade-up">
 								<div class="icon-wrapper"> 
 									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
 								</div>
@@ -74,7 +74,7 @@
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6">
-							<div class="box top_services_sec">
+							<div class="box top_services_sec wow fadeInUp" data-aos="fade-up">
 								<div class="icon-wrapper"> 
 									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
 								</div>
@@ -83,7 +83,7 @@
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6">
-							<div class="box top_services_sec">
+							<div class="box top_services_sec wow fadeInUp" data-aos="fade-left">
 								<div class="icon-wrapper"> 
 									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
 								</div>
@@ -96,7 +96,7 @@
 			</section>
 			<section class="matrix-section services_home">
 				<div class="container">
-					<div class="heading-matix">
+					<div class="heading-matix wow fadeInUp" data-aos="fade-up">
 						<h2 class="heading-main">Our Services <span>and Specialities</span></h2>
 						<p class="heading-sub">Begin and end your day with a smile!</p>
 						<img src="images/icons/dental-icon-service.png" class="img_icon" alt="Matrix Dental and Skin Lounge">
@@ -104,7 +104,7 @@
 					<div class="doctors">
 						<div class="row">
 							<div class="col-md-3 col-sm-6">
-								<div class="single-service-item">
+								<div class="single-service-item wow fadeInUp" data-aos="fade-right">
 									<div class="single-service">
 										<img class="img-fluid" src="images/service/1.jpg" alt="">
 										<h5>DENTAL IMPLANTS</h5>
@@ -114,7 +114,7 @@
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
-								<div class="single-service-item">
+								<div class="single-service-item wow fadeInUp" data-aos="fade-up">
 									<div class="single-service">
 										<img class="img-fluid" src="images/service/2.jpg" alt="">
 										<h5>ROOT CANAL</h5>
@@ -124,7 +124,7 @@
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
-								<div class="single-service-item">
+								<div class="single-service-item wow fadeInUp" data-aos="fade-up">
 									<div class="single-service">
 										<img class="img-fluid" src="images/service/3.jpg" alt="">
 										<h5>TOOTH GAP TREATMENT</h5>
@@ -134,7 +134,7 @@
 								</div>
 							</div>
 							<div class="col-md-3 col-sm-6">
-								<div class="single-service-item">
+								<div class="single-service-item wow fadeInUp" data-aos="fade-left">
 									<div class="single-service">
 										<img class="img-fluid" src="images/service/4.jpg" alt="">
 										<h5>COSMETIC DESIGN</h5>
@@ -155,7 +155,7 @@
 						<!-- Testimonials -->
 						<div class="owl-carousel owl-theme testimonial_slider" id="testimonialSlider">
 							<div class="item">
-								<div class="testimonial_items">
+								<div class="testimonial_items" data-aos="zoom-in">
 									<div class="testimonials_home">
 										<div class="testimonial_data">						
 											<h2>Friendly staff, very helpful.</h2>
@@ -170,7 +170,7 @@
 								</div>
 							</div>
 							<div class="item">
-								<div class="testimonial_items">
+								<div class="testimonial_items" data-aos="zoom-in">
 									<div class="testimonials_home">
 										<div class="testimonial_data">						
 											<h2>Friendly staff, very helpful.</h2>
@@ -188,14 +188,14 @@
 					</div>
 					<div class="col-md-6 bookAppoint_bg" id="requestAppointment">
 						<div class="book-an-appointment">
-							<div class="heading-matix">
+							<div class="heading-matix wow fadeInUp" data-aos="fade-up">
 								<h2 class="heading-main">Book an <span>Appointment</span></h2>							
 								<img src="images/icons/dental-icon-appointments.png" class="img_icon book_icon" alt="Matrix Dental and Skin Lounge">
 							</div>
 							<form action="" class="form_book">
 								<div class="row">
 									<div class="col-md-6 col-sm-6">
-										<div class="form-group">
+										<div class="form-group wow fadeInUp" data-aos="fade-up">
 											<label for="exampleInputEmail1" class="bmd-label-floating">Name</label>
 											<input type="text" class="form-control" id="exampleInputEmail1">
 											<i class="fas fa-user prefix"></i>
@@ -203,7 +203,7 @@
 										</div>
 									</div>
 									<div class="col-md-6 col-sm-6">
-										<div class="form-group">
+										<div class="form-group wow fadeInUp" data-aos="fade-up">
 											<label for="exampleInputEmail1" class="bmd-label-floating">Mobile No.</label>
 											<input type="text" class="form-control" id="exampleInputEmail1">
 											<i class="fas fa-mobile-alt prefix"></i>
@@ -211,7 +211,7 @@
 										</div>
 									</div>
 									<div class="col-md-6 col-sm-6">
-										<div class="form-group">
+										<div class="form-group wow fadeInUp" data-aos="fade-up">
 											<label for="exampleInputEmail1" class="bmd-label-floating">Email ID</label>
 											<input type="text" class="form-control" id="exampleInputEmail1">
 											<i class="far fa-envelope prefix"></i>
@@ -219,17 +219,17 @@
 										</div>
 									</div>
 									<div class="col-md-6 col-sm-6">
-										<div class="form-group">
+										<div class="form-group wow fadeInUp" data-aos="fade-up">
 											<label for="exampleInputEmail1" class="bmd-label-floating">Date</label>
 											<input type="text" class="form-control" id="exampleInputEmail1">
 											<i class="far fa-calendar-alt prefix"></i>
 											<!-- <span class="error text-danger">Please Enter Email ID</span> -->
 										</div>
 									</div>
-									<div class="col-md-12 mt-3">
+									<div class="col-md-12 mt-3 wow fadeInUp" data-aos="fade-up">
 										<img src="images/captcha.jpg" class="img-fluid" alt="">
 									</div>
-									<div class="col-md-12 text-center mt-4">
+									<div class="col-md-12 text-center mt-4 wow fadeInUp" data-aos="fade-up">
 										<a href="javascript:void(0)" class="btn btn btn-raised matrix_btn">Book Now</a>
 									</div>
 								</div>
@@ -241,7 +241,7 @@
 			
 			<section class="matrix-section doctors_home">
 				<div class="container">
-					<div class="heading-matix">
+					<div class="heading-matix wow fadeInUp" data-aos="fade-up">
 						<h2 class="heading-main">Our Distinguished <span>Dental Specialists</span></h2>
 						<p class="heading-sub">A smile is a curve that sets everything straight!</p>
 						<img src="images/icons/dental-icon-specialist.png" class="img_icon" alt="Matrix Dental and Skin Lounge">
@@ -249,7 +249,7 @@
 					<div class="doctors">
 						<div class="row">
 							<div class="col-md-6">
-								<div class="doc_detials clearfix">
+								<div class="doc_detials clearfix wow fadeInUp" data-aos="zoom-out-down">
 									<div class="doc_image">
 										<img src="images/saurabh-nagpal.jpg" class="img-fluid" alt="">
 									</div>
@@ -264,7 +264,7 @@
 								</div>
 							</div>
 							<div class="col-md-6">
-								<div class="doc_detials clearfix">
+								<div class="doc_detials clearfix wow fadeInUp" data-aos="zoom-out-down">
 									<div class="doc_image">
 										<img src="images/poonam-nagpal.jpg" class="img-fluid" alt="">
 									</div>
@@ -324,55 +324,8 @@
 					animateIn : 'rollIn',
 					animateOut : 'rollOut'			
 				});	
-				$('a[href*="#"]')
-
-				.not('[href="#"]')
-				.not('[href="#0"]')
-				.click(function(event) {
-					
-					if (
-						location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-						&& 
-						location.hostname == this.hostname
-						) {
-						
-						var target = $(this.hash);
-					target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-					
-					if (target.length) {
-						
-						event.preventDefault();
-						$('html, body').animate({
-							scrollTop: target.offset().top
-						}, 1000, function() {
-							
-							var $target = $(target);
-							$target.focus();
-							if ($target.is(":focus")) { 
-								return false;
-							} else {
-								$target.attr('tabindex','-1');
-								$target.focus();
-							};
-						});
-					}
-				}
-			});
-				// $("a.linkscroll").on('click', function(event) {
-
-				// 	if (this.hash !== "") {
-
-				// 		event.preventDefault();
-				// 		var hash = this.hash;
-
-				// 		$('html, body').animate({
-				// 			scrollTop: $(hash).offset().top - 80
-				// 		}, 800, function(){
-
-				// 			window.location.hash = hash;
-				// 		});
-				// 	} 
-				// });
+				
+				
 
 			});
 
