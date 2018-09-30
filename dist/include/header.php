@@ -62,34 +62,43 @@
 	<nav class="navbar navbar-expand-lg navbar-light">
 		<div class="collapse navbar-collapse" id="navbarCollapse">
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
+				<li class="nav-item <?= ($activePage == 'index') ? 'active':''; ?>">
 					<a class="nav-link" href="index.php">Home</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item <?= ($activePage == 'about') ? 'active':''; ?>">
 					<a class="nav-link" href="about.php">About Us</a>
 				</li>
-				<li class="nav-item">
+				<!-- <li class="nav-item dropdown first-level">
+					<a class="nav-link menu-toggle" href="dental-services.php">Dental Services</a>
+					<div class="dropdown-menu first-level" aria-labelledby="dropdown03" style="display: block">
+						<a class="dropdown-item" href="our-aim.php">Our Aim</a>
+						<a class="dropdown-item" href="our-process.php">Our Process</a>
+						<a class="dropdown-item" href="our-team.php">Our Team</a>
+					</div>
+				</li> -->
+
+				<li class="nav-item <?= ($activePage == 'dental-services') ? 'active':''; ?>">
 					<a class="nav-link" href="dental-services.php">Dental Services</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item <?= ($activePage == 'skin-services') ? 'active':''; ?>">
 					<a class="nav-link" href="skin-services.php">Skin Services</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item <?= ($activePage == 'dental-treatment-cost') ? 'active':''; ?>">
 					<a class="nav-link" href="dental-treatment-cost.php">Prices</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item <?= ($activePage == 'photo-gallery') ? 'active':''; ?>">
 					<a class="nav-link" href="photo-gallery.php">Gallery</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item <?= ($activePage == 'faq-dental') ? 'active':''; ?>">
 					<a class="nav-link" href="faq-dental.php">FAQ</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item <?= ($activePage == 'contact') ? 'active':''; ?>">
 					<a class="nav-link" href="contact.php">Contact</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item <?= ($activePage == 'clinic-tour') ? 'active':''; ?>">
 					<a class="nav-link" href="clinic-tour.php">Clinic Tour</a>
 				</li>
-				<li class="nav-item">
+				<li class="nav-item <?= ($activePage == 'feedback') ? 'active':''; ?>">
 					<a class="nav-link" href="feedback.php">Feedback</a>
 				</li>
 			</ul>

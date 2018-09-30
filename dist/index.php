@@ -15,20 +15,30 @@
 			<section class="main_banner">
 				<div class="owl-carousel owl-theme top_banner_slider" id="mainSlider">
 					<div class="item">
-						<div class="slide slide1" style="background-image: url('images/banners/bg-banner-1.jpg');">
+						<div class="slide slide2" style="background-image: url('images/banners/banner-3.jpg');">
 							<div class="content__silider">	
-								<h4 class="sub__title text-uppercase">Make your <span>Dental</span></h4>
-								<h1 class="main__title text-uppercase">Experience a Lot Brighter </h1>
+								<h4 class="sub__title text-uppercase">Expertise in Major</h4>
+								<h1 class="main__title text-uppercase">Dental Procedures </h1>
 								<p class="sub_title_2">With best facilities and better equipments, you are in safe hands </p>
 							</div>
 						</div>
 					</div>
 					<div class="item">
-						<div class="slide slide2" style="background-image: url('images/banners/bg-banner-2.jpg');">
+						<div class="slide slide2" style="background-image: url('images/banners/banner-2.jpg');">
 							<div class="content__silider">	
 								<h4 class="sub__title text-uppercase">Expertise in Major</h4>
 								<h1 class="main__title text-uppercase">Dental Procedures </h1>
 								<p class="sub_title_2">With best facilities and better equipments, you are in safe hands </p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="item">
+						<div class="slide slide1" style="background-image: url('images/banners/banner-1.jpg');">
+							<div class="content__silider">	
+								<h4 class="sub__title text-uppercase text-white">Make your <span>Dental</span></h4>
+								<h1 class="main__title text-uppercase text-white">Experience a Lot Brighter </h1>
+								<p class="sub_title_2 text-white">With best facilities and better equipments, you are in safe hands </p>
 							</div>
 						</div>
 					</div>
@@ -159,12 +169,12 @@
 									<div class="testimonials_home">
 										<div class="testimonial_data">						
 											<h2>Friendly staff, very helpful.</h2>
-											<p>  I was able to get a booking the moment I contacted them. The staff are friendly, and the check itself was painless. I also booked in for a clean-up which was also very easy. I would recommend to anyone looking for a south Delhi dental option. </p>
+											<p>Dr. Sourabh Nagpal and his staff are absolutely the best! Not only are they professional and experts at dentistry, when I decided to improve my smile, he did a fantastic makeover!</p>
 										</div>
 										<div class="user_data text-center">
-											<img src="https://placeimg.com/75/75/people" class="img-fluid rounded-circle user_img" alt="">
-											<p class="username">Shikha Sharma</p>
-											<p class="location"><i class="fas fa-map-marker-alt"></i> Janakpuri</p>
+											<img src="images/testimonial/disha.jpg" class="img-fluid rounded-circle user_img" alt="">
+											<p class="username">Disha Agnihotri</p>
+											<p class="location"><i class="fas fa-map-marker-alt"></i> Noida</p>
 										</div>
 									</div>	
 								</div>
@@ -174,12 +184,27 @@
 									<div class="testimonials_home">
 										<div class="testimonial_data">						
 											<h2>Friendly staff, very helpful.</h2>
-											<p>  I was able to get a booking the moment I contacted them. The staff are friendly, and the check itself was painless. I also booked in for a clean-up which was also very easy. I would recommend to anyone looking for a south Delhi dental option. </p>
+											<p>I am very happy with the service, facility, treatment. Thanks a lot, to Dr. Sourabh Nagpal to complete my treatment without any delay.</p>
 										</div>
 										<div class="user_data text-center">
-											<img src="https://placeimg.com/75/75/nature" class="img-fluid rounded-circle user_img" alt="">
-											<p class="username">Shikha Sharma</p>
-											<p class="location"><i class="fas fa-map-marker-alt"></i> Janakpuri</p>
+											<img src="images/testimonial/nidhi.png" class="img-fluid rounded-circle user_img" alt="">
+											<p class="username">Nidhi Tomor</p>
+											<p class="location"><i class="fas fa-map-marker-alt"></i> South Delhi</p>
+										</div>
+									</div>	
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimonial_items" data-aos="zoom-in">
+									<div class="testimonials_home">
+										<div class="testimonial_data">						
+											<h2>Friendly staff, very helpful.</h2>
+											<p>It was good experience with Dr Sourabh Nagpal. He has nicely attended me with my treatment and he has done his job very well now my teeth are in very good condition...</p>
+										</div>
+										<div class="user_data text-center">
+											<img src="images/testimonial/kirti.jpg" class="img-fluid rounded-circle user_img" alt="">
+											<p class="username">Kriti Yadav</p>
+											<p class="location"><i class="fas fa-map-marker-alt"></i> Gurgaon</p>
 										</div>
 									</div>	
 								</div>

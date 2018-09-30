@@ -84,3 +84,11 @@ ma5menu({
 	position: 'right',
 	closeOnBodyClick: true
 });
+$(document).ready(function() {
+	$('.feedback_container .content').each(function() {
+		if($(this).text().length > 140){
+			$(this).text($(this).text().substr(0,137));
+			$(this).append('...');
+		}
+	});
+});

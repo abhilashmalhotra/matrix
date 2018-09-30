@@ -53,8 +53,8 @@
 		overflow: hidden;
 		.slide{
 			min-height: 500px;
-			-webkit-background-size: cover;
-			background-size: cover;
+			-webkit-background-size: 100% 100%;
+			background-size: 100% 100%;
 			@include respond-to($tablet-landscape) {
 				min-height:350px;
 			}
