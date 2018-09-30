@@ -1,3 +1,4 @@
+<a href="#gotoTop" id="toTop"><span id="toTopHover"></span>To Top</a>
 <footer class="footer__matrix">
 	<div class="container">
 		<div class="row justify-content-between">
@@ -5,12 +6,12 @@
 				<div class="footer_head">
 					<h2 class="foot_head">Useful Link</h2>
 					<ul class="list-inline list_foot">
-						<li><a href="javascript:void(0)">Dr. Sourabh Nagpal</a></li>
-						<li><a href="javascript:void(0)">Dr. Poonam Nagpal</a></li>
-						<li><a href="javascript:void(0)">Services</a></li>
+						<li><a href="dr-sourabh-nagpal.php">Dr. Sourabh Nagpal</a></li>
+						<li><a href="dr-poonam-nagpal.php">Dr. Poonam Nagpal</a></li>
+						<li><a href="dental-services.php">Services</a></li>
 						<li><a href="javascript:void(0)">Orthodontics</a></li>
-						<li><a href="javascript:void(0)">FAQ</a></li>
-						<li><a href="javascript:void(0)">Privacy Policy</a></li>
+						<li><a href="faq-dental.php">FAQ</a></li>
+						<li><a href="privacy-policy.php">Privacy Policy</a></li>
 					</ul>
 				</div>
 			</div>

@@ -25,3 +25,19 @@
 		}
 	}
 }
+#toTop{
+	background: url('../images/totop.png') no-repeat center center;
+	background-size: 50px 57px;
+	position: fixed;
+	display: none;
+	text-decoration: none;
+	bottom: 30px;
+	right: 30px;
+	overflow: hidden;
+	width: 50px;
+	height: 57px;
+	border: none;	
+	z-index: 999;
+	opacity: 1;
+	text-indent: -9999px;
+}

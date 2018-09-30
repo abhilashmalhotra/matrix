@@ -66,31 +66,31 @@
 					<a class="nav-link" href="index.php">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="javascript:void(0)">About Us</a>
+					<a class="nav-link" href="about.php">About Us</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="javascript:void(0)">Dental Services</a>
+					<a class="nav-link" href="dental-services.php">Dental Services</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="javascript:void(0)">Skin Services</a>
+					<a class="nav-link" href="skin-services.php">Skin Services</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="javascript:void(0)">Prices</a>
+					<a class="nav-link" href="dental-treatment-cost.php">Prices</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="javascript:void(0)">Gallery</a>
+					<a class="nav-link" href="photo-gallery.php">Gallery</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="javascript:void(0)">FAQ</a>
+					<a class="nav-link" href="faq-dental.php">FAQ</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="javascript:void(0)">Contact</a>
+					<a class="nav-link" href="contact.php">Contact</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="javascript:void(0)">Clinic Tour</a>
+					<a class="nav-link" href="clinic-tour.php">Clinic Tour</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="javascript:void(0)">Feedback</a>
+					<a class="nav-link" href="feedback.php">Feedback</a>
 				</li>
 			</ul>
 			<ul class="navbar-nav ml-auto">

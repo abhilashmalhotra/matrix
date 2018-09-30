@@ -11,6 +11,15 @@ AOS.init({
 	duration: 1000,
 	disable: 'mobile'
 });
+
+$(window).scroll(()=> {    
+	var scroll = $(window).scrollTop();
+	if (scroll >= 150) {			
+		$("#toTop").show();
+	} else {			
+		$("#toTop").hide();
+	}
+});
 // $(document).ready(function() {	
 // 	$('#register').on('show.bs.modal', function (e) {
 // 		modalAnimation('register', 'fadeIn');

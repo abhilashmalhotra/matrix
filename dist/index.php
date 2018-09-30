@@ -5,7 +5,7 @@
 	<title>Matrix Delhi Dental</title>	
 	<?php include 'include/head.php'; ?>	
 </head>
-<body>
+<body id="gotoTop">
 	<div class="matrix_container">
 		<!-- Header Include Here -->
 		
@@ -284,50 +284,51 @@
 				</div>
 			</section>
 		</div>
-		<?php  include 'include/footer.php'; ?>
-		<?php  include 'include/foot.php'; ?>
-		<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.25.0/sweetalert2.min.js"></script> -->
-		
-		<script>
+	</div>
+	<?php  include 'include/footer.php'; ?>
+	<?php  include 'include/foot.php'; ?>
+	<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.25.0/sweetalert2.min.js"></script> -->
 
-			$(document).ready(function() {
-				$('.photo_gallery').fancybox({});
-				$('#mainSlider').owlCarousel({
-					items:1,
-					autoplay : true,
-					autoplayTimeout : 6000,
-					autoplayHoverPause:true,
-					smartSpeed:450,
-					loop:true,
-					margin:0,
-					nav:true,
-					dots : false,
-					mouseDrag : false,
-					touchDrag : true,
-					navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],	
-					animateIn : 'fadeIn',
-					animateOut : 'fadeOut'			
-				});	
-				$('#testimonialSlider').owlCarousel({
-					items:1,
-					autoplay : true,
-					autoplayTimeout : 6000,
-					autoplayHoverPause:true,
-					smartSpeed:450,
-					loop:true,
-					margin:0,
-					nav:true,
-					dots : false,
-					mouseDrag : false,
-					touchDrag : true,
-					navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],	
-					animateIn : 'rollIn',
-					animateOut : 'rollOut'			
-				});	
-				
-				
+	<script>
 
-			});
+		$(document).ready(function() {
+			$('.photo_gallery').fancybox({});
+			$('#mainSlider').owlCarousel({
+				items:1,
+				autoplay : true,
+				autoplayTimeout : 6000,
+				autoplayHoverPause:true,
+				smartSpeed:450,
+				loop:true,
+				margin:0,
+				nav:true,
+				dots : false,
+				mouseDrag : false,
+				touchDrag : true,
+				navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],	
+				animateIn : 'fadeIn',
+				animateOut : 'fadeOut'			
+			});	
+			$('#testimonialSlider').owlCarousel({
+				items:1,
+				autoplay : true,
+				autoplayTimeout : 6000,
+				autoplayHoverPause:true,
+				smartSpeed:450,
+				loop:true,
+				margin:0,
+				nav:true,
+				dots : false,
+				mouseDrag : false,
+				touchDrag : true,
+				navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],	
+				animateIn : 'rollIn',
+				animateOut : 'rollOut'			
+			});	
+
+
+
+		});
 
 			// var containerEl = document.querySelector('.items-filter');
 			// var mixer = mixitup(containerEl);
