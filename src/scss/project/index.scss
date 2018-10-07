@@ -729,11 +729,10 @@ span.error{
 	-webkit-background-size: cover;
 	background-size: cover;
 	.contact_info{
-		// position: absolute;
-		// top: 50%;
-		// left: 50%;
-		// transform: translateY(-50%);
-		// width: 44%;
+		padding: 20px;
+		background: rgba(180, 108, 142, 0.0784313725490196);
+		-webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,.12), 0 2px 4px 0 rgba(0,0,0,.08);
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,.12), 0 2px 4px 0 rgba(0,0,0,.08);
 		.title{
 			font-size: 30px;
 			color: $prime;

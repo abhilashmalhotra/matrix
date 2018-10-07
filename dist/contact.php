@@ -43,7 +43,7 @@
 				<!-- <img src="images/contact-img.jpg" class="img-fluid" alt=""> -->
 				<div class="container">
 					<div class="row">
-						<div class="offset-md-6 col-md-6">
+						<div class="offset-md-5 col-md-7">
 							<div class="contact_info">
 								<h1 class="title">GET IN TOUCH...</h1>
 								<p class="icon_text address"><img src="images/icons/map.png" class="img-fluid" alt="">Matrix Dental and Skin Lounge, 70, Poorvi Marg, Opposite Modern School, Vasant Vihar , New Delhi - 110057</p>
