@@ -63,10 +63,10 @@
 		<div class="collapse navbar-collapse" id="navbarCollapse">
 			<ul class="navbar-nav mr-auto">
 				<li class="nav-item <?= ($activePage == 'index') ? 'active':''; ?>">
-					<a class="nav-link" href="index.php">Home</a>
+					<a class="nav-link" href="<?php echo $siteUrl ?>">Home</a>
 				</li>
 				<li class="nav-item <?= ($activePage == 'about') ? 'active':''; ?>">
-					<a class="nav-link" href="about.php">About Us</a>
+					<a class="nav-link" href="<?php echo $siteUrl ?>about.php">About Us</a>
 				</li>
 				<!-- <li class="nav-item dropdown first-level">
 					<a class="nav-link menu-toggle" href="dental-services.php">Dental Services</a>
@@ -78,28 +78,28 @@
 				</li> -->
 
 				<li class="nav-item <?= ($activePage == 'dental-services') ? 'active':''; ?>">
-					<a class="nav-link" href="dental-services.php">Dental Services</a>
+					<a class="nav-link" href="<?php echo $siteUrl ?>dental-services.php">Dental Services</a>
 				</li>
 				<li class="nav-item <?= ($activePage == 'skin-services') ? 'active':''; ?>">
-					<a class="nav-link" href="skin-services.php">Skin Services</a>
+					<a class="nav-link" href="<?php echo $siteUrl ?>skin-services.php">Skin Services</a>
 				</li>
 				<li class="nav-item <?= ($activePage == 'dental-treatment-cost') ? 'active':''; ?>">
-					<a class="nav-link" href="dental-treatment-cost.php">Prices</a>
+					<a class="nav-link" href="<?php echo $siteUrl ?>dental-treatment-cost.php">Prices</a>
 				</li>
 				<li class="nav-item <?= ($activePage == 'photo-gallery') ? 'active':''; ?>">
-					<a class="nav-link" href="photo-gallery.php">Gallery</a>
+					<a class="nav-link" href="<?php echo $siteUrl ?>photo-gallery.php">Gallery</a>
 				</li>
 				<li class="nav-item <?= ($activePage == 'faq-dental') ? 'active':''; ?>">
-					<a class="nav-link" href="faq-dental.php">FAQ</a>
+					<a class="nav-link" href="<?php echo $siteUrl ?>faq-dental.php">FAQ</a>
 				</li>
 				<li class="nav-item <?= ($activePage == 'contact') ? 'active':''; ?>">
-					<a class="nav-link" href="contact.php">Contact</a>
+					<a class="nav-link" href="<?php echo $siteUrl ?>contact.php">Contact</a>
 				</li>
 				<li class="nav-item <?= ($activePage == 'clinic-tour') ? 'active':''; ?>">
-					<a class="nav-link" href="clinic-tour.php">Clinic Tour</a>
+					<a class="nav-link" href="<?php echo $siteUrl ?>clinic-tour.php">Clinic Tour</a>
 				</li>
 				<li class="nav-item <?= ($activePage == 'feedback') ? 'active':''; ?>">
-					<a class="nav-link" href="feedback.php">Feedback</a>
+					<a class="nav-link" href="<?php echo $siteUrl ?>feedback.php">Feedback</a>
 				</li>
 			</ul>
 			<ul class="navbar-nav ml-auto">
@@ -126,7 +126,7 @@
 	<ul class="lvl-0 ma5menu__panel--active" data-ma5order="ma5-ul">
 		<!-- 'ma5menu__li--current' - current list-item wchich is closest to active link in menu tree (only one for menu) -->
 		<li class="ma5menu__li--current" data-ma5order="ma5-li-1">
-			<a href="index.php"><i class="fas fa-home"></i> Home</a>
+			<a href="<?php echo $siteUrl ?>"><i class="fas fa-home"></i> Home</a>
 			<!-- Use class 'ma5menu__path' when you need colored link or category, for example to active link or path links -->
 			<!-- <span class="ma5menu__btn--enter ma5menu__category ma5menu__path"><i class="fas fa-home"></i> Home</span> -->
 			<!-- <ul class="lvl-1" data-ma5order="ma5-ul-1">
@@ -157,17 +157,17 @@
 				<li data-ma5order="ma5-li-1-4"><a href="index-page.html">Programs</a></li>
 			</ul> -->
 		</li>
-		<li data-ma5order="ma5-li-2"><a href="javascript:void(0);"><i class="fas fa-search"></i> About Us</a></li>
+		<li data-ma5order="ma5-li-2"><a href="<?php echo $siteUrl ?>"><i class="fas fa-search"></i> About Us</a></li>
 		<li data-ma5order="ma5-li-3">
 			<span class="ma5menu__btn--enter"></span>
 			<a href="#"><i class="fas fa-tooth"></i> Dental Services</a>
 			<ul class="lvl-1" data-ma5order="ma5-ul-3">
 				<li data-ma5order="ma5-li-3-1">
 					<div class="ma5menu__leave"><span class="ma5menu__btn--leave"></span> Dental Services</div>
-					<a href="#">Dental Implants</a>
+					<a href="<?php echo $siteUrl ?>">Dental Implants</a>
 				</li>
-				<li data-ma5order="ma5-li-3-2"><a href="#">Root Canal</a></li>
-				<li data-ma5order="ma5-li-3-3"><a href="#">Crowning</a></li>
+				<li data-ma5order="ma5-li-3-2"><a href="<?php echo $siteUrl ?>">Root Canal</a></li>
+				<li data-ma5order="ma5-li-3-3"><a href="<?php echo $siteUrl ?>">Crowning</a></li>
 			</ul>
 		</li>
 		<li data-ma5order="ma5-li-4">
@@ -176,20 +176,20 @@
 			<ul class="lvl-1" data-ma5order="ma5-ul-4">
 				<li data-ma5order="ma5-li-4-1">
 					<div class="ma5menu__leave"><span class="ma5menu__btn--leave"></span> Skin Services</div>
-					<a href="#">Lip Rejuvenation</a>
+					<a href="<?php echo $siteUrl ?>">Lip Rejuvenation</a>
 				</li>
-				<li data-ma5order="ma5-li-4-2"><a href="#">Facial Rejuvenation</a></li>
-				<li data-ma5order="ma5-li-4-3"><a href="#">Anti-aging Treatments</a></li>
+				<li data-ma5order="ma5-li-4-2"><a href="<?php echo $siteUrl ?>">Facial Rejuvenation</a></li>
+				<li data-ma5order="ma5-li-4-3"><a href="<?php echo $siteUrl ?>">Anti-aging Treatments</a></li>
 			</ul>
 		</li>
 		<li data-ma5order="ma5-li-5">
-			<a href="javascript:void(0);"><i class="fas fa-cubes"></i> Price</a>
+			<a href="<?php echo $siteUrl ?>"><i class="fas fa-cubes"></i> Price</a>
 		</li>
-		<li data-ma5order="ma5-li-6"><a href="javascript:void(0);"><i class="fas fa-shopping-bag"></i> Gallery</a></li>
+		<li data-ma5order="ma5-li-6"><a href="<?php echo $siteUrl ?>"><i class="fas fa-shopping-bag"></i> Gallery</a></li>
 		
-		<li data-ma5order="ma5-li-5"><a href="javascript:void(0);"><i class="fas fa-cubes"></i> FAQ</a></li>
-		<li data-ma5order="ma5-li-7"><a href="javascript:void(0);"><i class="fas fa-map-marker"></i> Contact us</a></li>
-		<li data-ma5order="ma5-li-8"><a href="javascript:void(0);"><i class="fas fa-map-marker"></i> Clinic Tour</a></li>
-		<li data-ma5order="ma5-li-9"><a href="javascript:void(0);"><i class="fas fa-map-marker"></i> Feedback</a></li>
+		<li data-ma5order="ma5-li-5"><a href="<?php echo $siteUrl ?>"><i class="fas fa-cubes"></i> FAQ</a></li>
+		<li data-ma5order="ma5-li-7"><a href="<?php echo $siteUrl ?>"><i class="fas fa-map-marker"></i> Contact us</a></li>
+		<li data-ma5order="ma5-li-8"><a href="<?php echo $siteUrl ?>"><i class="fas fa-map-marker"></i> Clinic Tour</a></li>
+		<li data-ma5order="ma5-li-9"><a href="<?php echo $siteUrl ?>"><i class="fas fa-map-marker"></i> Feedback</a></li>
 	</ul>
 </nav>

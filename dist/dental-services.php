@@ -1,3 +1,4 @@
+<?php include 'include/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -40,7 +41,7 @@
 									<img class="img-fluid" src="images/service/1.jpg" alt="">
 									<h5>DENTAL IMPLANTS</h5>
 									<p>Lorem ipsum dolor sit consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-									<a class="serv-rmbtn" href="#">Read More</a>
+									<a class="serv-rmbtn" href="#">View Service</a>
 								</div>	
 							</div>
 						</div>
@@ -50,7 +51,7 @@
 									<img class="img-fluid" src="images/service/2.jpg" alt="">
 									<h5>ROOT CANAL</h5>
 									<p>Lorem ipsum dolor sit consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-									<a class="serv-rmbtn" href="#">Read More</a>
+									<a class="serv-rmbtn" href="#">View Service</a>
 								</div>	
 							</div>
 						</div>
@@ -60,7 +61,7 @@
 									<img class="img-fluid" src="images/service/3.jpg" alt="">
 									<h5>TOOTH GAP TREATMENT</h5>
 									<p>Lorem ipsum dolor sit consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-									<a class="serv-rmbtn" href="#">Read More</a>
+									<a class="serv-rmbtn" href="#">View Service</a>
 								</div>	
 							</div>
 						</div>
@@ -70,7 +71,7 @@
 									<img class="img-fluid" src="images/service/4.jpg" alt="">
 									<h5>COSMETIC DESIGN</h5>
 									<p>Lorem ipsum dolor sit consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-									<a class="serv-rmbtn" href="#">Read More</a>
+									<a class="serv-rmbtn" href="#">View Service</a>
 								</div>	
 							</div>
 						</div>
@@ -80,7 +81,7 @@
 									<img class="img-fluid" src="images/service/1.jpg" alt="">
 									<h5>DENTAL IMPLANTS</h5>
 									<p>Lorem ipsum dolor sit consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-									<a class="serv-rmbtn" href="#">Read More</a>
+									<a class="serv-rmbtn" href="#">View Service</a>
 								</div>	
 							</div>
 						</div>
@@ -90,7 +91,7 @@
 									<img class="img-fluid" src="images/service/2.jpg" alt="">
 									<h5>ROOT CANAL</h5>
 									<p>Lorem ipsum dolor sit consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-									<a class="serv-rmbtn" href="#">Read More</a>
+									<a class="serv-rmbtn" href="#">View Service</a>
 								</div>	
 							</div>
 						</div>
@@ -100,7 +101,7 @@
 									<img class="img-fluid" src="images/service/3.jpg" alt="">
 									<h5>Crowning</h5>
 									<p>Lorem ipsum dolor sit consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-									<a class="serv-rmbtn" href="#">Read More</a>
+									<a class="serv-rmbtn" href="#">View Service</a>
 								</div>	
 							</div>
 						</div>
@@ -110,7 +111,7 @@
 									<img class="img-fluid" src="images/service/4.jpg" alt="">
 									<h5>Dental Sealants</h5>
 									<p>Lorem ipsum dolor sit consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-									<a class="serv-rmbtn" href="#">Read More</a>
+									<a class="serv-rmbtn" href="#">View Service</a>
 								</div>	
 							</div>
 						</div>
@@ -120,7 +121,7 @@
 									<img class="img-fluid" src="images/service/1.jpg" alt="">
 									<h5>Denture</h5>
 									<p>Lorem ipsum dolor sit consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-									<a class="serv-rmbtn" href="#">Read More</a>
+									<a class="serv-rmbtn" href="#">View Service</a>
 								</div>	
 							</div>
 						</div>
@@ -130,7 +131,7 @@
 									<img class="img-fluid" src="images/service/2.jpg" alt="">
 									<h5>Porcelain Veneers</h5>
 									<p>Lorem ipsum dolor sit consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-									<a class="serv-rmbtn" href="#">Read More</a>
+									<a class="serv-rmbtn" href="#">View Service</a>
 								</div>	
 							</div>
 						</div>
@@ -140,7 +141,7 @@
 									<img class="img-fluid" src="images/service/3.jpg" alt="">
 									<h5>Inlays and Onlays</h5>
 									<p>Lorem ipsum dolor sit consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-									<a class="serv-rmbtn" href="#">Read More</a>
+									<a class="serv-rmbtn" href="#">View Service</a>
 								</div>	
 							</div>
 						</div>
@@ -150,7 +151,7 @@
 									<img class="img-fluid" src="images/service/4.jpg" alt="">
 									<h5>Teeth whitening</h5>
 									<p>Lorem ipsum dolor sit consecte adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
-									<a class="serv-rmbtn" href="#">Read More</a>
+									<a class="serv-rmbtn" href="#">View Service</a>
 								</div>	
 							</div>
 						</div>

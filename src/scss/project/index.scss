@@ -12,6 +12,9 @@
 		color: #fff;
 	}
 }
+.bg_grey{
+	background-color: #f0f2f7;
+}
 .custom-file-control, .form-control, .is-focused .custom-file-control, .is-focused .form-control{
 	background-image: linear-gradient(0deg,$prime 2px,rgba(0,150,136,0) 0),linear-gradient(0deg,#aba9a9 1px,transparent 0);
 }
@@ -647,7 +650,7 @@
 .book-an-appointment{
 	padding: 2rem 0 2rem;
 	.book_icon{
-		width: 75px;
+		width: 50px;
 		@include respond-to($tablet-portrait) {
 			width: 50px;
 		}
@@ -722,7 +725,7 @@ span.error{
 	padding: 3rem 0 3rem;
 	position: relative;
 	background-image: url('../images/contact-img.jpg');
-	background-position: left top;
+	background-position: center;
 	-webkit-background-size: cover;
 	background-size: cover;
 	.contact_info{

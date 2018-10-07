@@ -91,4 +91,13 @@ $(document).ready(function() {
 			$(this).append('...');
 		}
 	});
+	$('#gallerydata li a').click(function(event) {
+		$(this).addClass('active')
+		$(this).parent().siblings().find('a').removeClass('active');
+	});
+
+
+	// Gallery Filter
+	var containerEl = document.querySelector('.items-filter');
+	var mixer = mixitup(containerEl);
 });

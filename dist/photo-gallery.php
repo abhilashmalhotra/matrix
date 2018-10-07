@@ -1,3 +1,4 @@
+<?php include 'include/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,10 +34,112 @@
 					</div>
 				</div>
 			</section>
+			<section class="matrix-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="gallery_top_menu">
+								<ul class="list-inline text-center" id="gallerydata">
+									<li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-raised btn-link active" data-filter="all">All</a></li>
+									<li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-raised btn-link" data-filter=".dental">Dental</a></li>
+									<li class="list-inline-item"><a href="javascript:void(0)" class="btn btn-raised btn-link" data-filter=".skin">Skin</a></li>
+								</ul>
+							</div>		
+						</div>
+					</div>
+					<div class="items-filter">
+						<div class="row">
+							<div class="col-md-4 mb-4 mix dental">	
+								<a data-fancybox="photo-gallery" class="" href="images/service/1.jpg" data-caption="Image Title 1">						
+									<div class="gallery_img_container">
+										<img class="img-fluid" src="images/service/1.jpg" alt="">
+										<div class="overlay">
+											<h2>Image Title</h2>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-md-4 mb-4 mix dental">	
+								<a data-fancybox="photo-gallery" class="" href="images/service/2.jpg" data-caption="Image Title 2">						
+									<div class="gallery_img_container">
+										<img class="img-fluid" src="images/service/2.jpg" alt="">
+										<div class="overlay">
+											<h2>Image Title</h2>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-md-4 mb-4 mix skin">	
+								<a data-fancybox="photo-gallery" class="" href="images/service/3.jpg" data-caption="Caption for single image">						
+									<div class="gallery_img_container">
+										<img class="img-fluid" src="images/service/3.jpg" alt="">
+										<div class="overlay">
+											<h2>Image Title</h2>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-md-4 mb-4 mix dental">	
+								<a data-fancybox="photo-gallery" class="" href="images/service/4.jpg">						
+									<div class="gallery_img_container">
+										<img class="img-fluid" src="images/service/4.jpg" alt="">
+										<div class="overlay">
+											<h2>Image Title</h2>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-md-4 mb-4 mix skin">	
+								<a data-fancybox="photo-gallery" class="" href="images/service/1.jpg">						
+									<div class="gallery_img_container">
+										<img class="img-fluid" src="images/service/1.jpg" alt="">
+										<div class="overlay">
+											<h2>Image Title</h2>
+										</div>
+									</div>
+								</a>
+							</div><div class="col-md-4 mb-4 mix skin">	
+								<a data-fancybox="photo-gallery" class="" href="images/service/2.jpg">						
+									<div class="gallery_img_container">
+										<img class="img-fluid" src="images/service/2.jpg" alt="">
+										<div class="overlay">
+											<h2>Image Title</h2>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-md-4 mb-4 mix dental">	
+								<a data-fancybox="photo-gallery" class="" href="images/service/3.jpg">						
+									<div class="gallery_img_container">
+										<img class="img-fluid" src="images/service/3.jpg" alt="">
+										<div class="overlay">
+											<h2>Image Title</h2>
+										</div>
+									</div>
+								</a>
+							</div>
+							<div class="col-md-4 mb-4 mix skin">	
+								<a data-fancybox="photo-gallery" class="" href="images/service/4.jpg">						
+									<div class="gallery_img_container">
+										<img class="img-fluid" src="images/service/4.jpg" alt="">
+										<div class="overlay">
+											<h2>Image Title</h2>
+										</div>
+									</div>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>		
+			</section>
 		</div>
 	</div>
 	<?php  include 'include/footer.php'; ?>
 	<?php  include 'include/foot.php'; ?>
-
+	<script>
+		$('[data-fancybox="photo-gallery"]').fancybox({
+			
+		});
+	</script>
 </body>
 </html>

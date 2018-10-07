@@ -11,7 +11,9 @@
 						<li><a href="dental-services.php">Services</a></li>
 						<li><a href="javascript:void(0)">Orthodontics</a></li>
 						<li><a href="faq-dental.php">FAQ</a></li>
+						<li><a href="javascript:void(0)">Blog</a></li>
 						<li><a href="privacy-policy.php">Privacy Policy</a></li>
+
 					</ul>
 				</div>
 			</div>
@@ -32,8 +34,15 @@
 				<div class="footer_head">
 					<h2 class="foot_head">Contact Address</h2>
 					<ul class="list-inline contact_foot">
-						<li>Matrix Dental and Skin Lounge, 70, Poorvi Marg, Opposite Modern School, Vasant Vihar , New Delhi - 110057</li>
-						<li>Dr Nagpal's Dental Clinic, 8372, C-8 Vasant Kunj (at entry of Gate no. 3), Sector C, Pocket 8, Near Ryan International School, Opposite Indian Spinal Injuries Centre, Vasant Kunj., Delhi, 110070</li>
+						<li class="icon_foot"><i class="fas fa-map-marker-alt"></i> Matrix Dental and Skin Lounge, 70, Poorvi Marg, Opposite Modern School, Vasant Vihar , New Delhi - 110057</li>
+						<li class="icon_foot"><i class="fas fa-map-marker-alt"></i> Dr Nagpal's Dental Clinic, 8372, C-8 Vasant Kunj (at entry of Gate no. 3), Sector C, Pocket 8, Near Ryan International School, Opposite Indian Spinal Injuries Centre, Vasant Kunj., Delhi, 110070</li>
+					</ul>
+				</div>
+				<div class="footer_head">
+					<h2 class="foot_head">Opening Hours</h2>
+					<ul class="list-inline contact_foot">
+						<li class="icon_foot"><i class="fas fa-clock"></i> 10:00AM – 9:00PM (Everyday)</li>
+						
 					</ul>
 				</div>
 			</div>

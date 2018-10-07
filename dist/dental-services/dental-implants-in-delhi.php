@@ -1,15 +1,16 @@
+<?php include '../include/config.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Matrix Delhi Dental</title>	
-	<?php include 'include/head.php'; ?>	
+	<?php include '../include/head.php'; ?>	
 </head>
 <body>
 	<div class="matrix_container">
 		<!-- Header Include Here -->
 		
-		<?php include 'include/header.php'; ?>
+		<?php include '../include/header.php'; ?>
 		<!-- Main Container of Anurag Singh -->
 		<div class="main_matrix_container">
 			<section class="matrix_top_heading">
@@ -17,7 +18,7 @@
 					<div class="row justify-content-center">
 						<div class="col-md-8">
 							<div class="main_heading wow fadeInUp" data-aos="fade-right">
-								<h2 class="title">Dental Implants</h2>
+								<h2 class="title">About Us</h2>
 							</div>
 						</div>
 						<div class="col-md-4">
@@ -25,8 +26,7 @@
 								
 								<ol class="breadcrumb">
 									<li class="breadcrumb-item"><a href="index.php"><i class="fas fa-home mr-0"></i></a></li>
-									<li class="breadcrumb-item"><a href="#">Dental Services</a></li>
-									<li class="breadcrumb-item active" aria-current="page">Dental Implants</li>
+									<li class="breadcrumb-item active" aria-current="page">About Us</li>
 								</ol>
 								
 							</div>
@@ -36,8 +36,8 @@
 			</section>
 		</div>
 	</div>
-	<?php  include 'include/footer.php'; ?>
-	<?php  include 'include/foot.php'; ?>
+	<?php  include '../include/footer.php'; ?>
+	<?php  include '../include/foot.php'; ?>
 
 </body>
 </html>

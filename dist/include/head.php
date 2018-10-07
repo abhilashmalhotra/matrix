@@ -10,11 +10,11 @@
 <!-- Fonts -->
 <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,800" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
-<link rel="stylesheet" href="css/menu.min.css">
+<link rel="stylesheet" href="<?php echo $siteUrl ?>css/menu.min.css">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<link rel="stylesheet" href="css/bootstrap-material-design.min.css">
-<link rel="stylesheet" href="css/owl.carousel.min.css">
-<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+<link rel="stylesheet" href="<?php echo $siteUrl ?>css/bootstrap-material-design.min.css">
+<link rel="stylesheet" href="<?php echo $siteUrl ?>css/owl.carousel.min.css">
+<link rel="stylesheet" href="<?php echo $siteUrl ?>css/jquery.fancybox.min.css">
 <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.25.0/sweetalert2.min.css"> -->
 
-<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="<?php echo $siteUrl ?>css/styles.css">
