@@ -81,12 +81,6 @@
 												<textarea class="form-control" id="message" rows="3" style="resize: none"></textarea>
 												<i class="fas fa-file-alt prefix"></i>
 											</div>
-											<!-- <div class="form-group wow fadeInUp">
-												<label for="exampleInputEmail1" class="bmd-label-floating">Date</label>
-												<input type="text" class="form-control" id="exampleInputEmail1">
-												<i class="far fa-calendar-alt prefix"></i>
-												<span class="error text-danger">Please Enter Email ID</span>
-											</div> -->
 										</div>
 										<div class="col-md-12 mt-3 wow fadeInUp">
 											<img src="images/captcha.jpg" style="width: 35%" class="img-fluid" alt="">

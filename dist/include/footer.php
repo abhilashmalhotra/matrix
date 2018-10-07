@@ -2,7 +2,7 @@
 <footer class="footer__matrix">
 	<div class="container">
 		<div class="row justify-content-between">
-			<div class="col-md-2 col-sm-6 wow fadeInUp" data-aos="fade-right">
+			<div class="col-md-2 col-sm-6 wow fadeInUp">
 				<div class="footer_head">
 					<h2 class="foot_head">Useful Link</h2>
 					<ul class="list-inline list_foot">
@@ -17,7 +17,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-2 col-sm-6 wow fadeInUp" data-aos="fade-up">
+			<div class="col-md-2 col-sm-6 wow fadeInUp">
 				<div class="footer_head">
 					<h2 class="foot_head">Services</h2>
 					<ul class="list-inline list_foot">
@@ -30,7 +30,7 @@
 					</ul>
 				</div>
 			</div>
-			<div class="col-md-4 wow fadeInUp" data-aos="fade-left">
+			<div class="col-md-4 wow fadeInUp">
 				<div class="footer_head">
 					<h2 class="foot_head">Contact Address</h2>
 					<ul class="list-inline contact_foot">

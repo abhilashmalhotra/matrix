@@ -63,48 +63,6 @@
 					</div>
 				</div>
 			</section>
-			<section class="matrix-section top-services" style="background-image: url('images/backgrounds/bg-top-services.jpg')">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-3 col-sm-6">
-							<div class="box top_services_sec wow fadeInUp" data-aos="fade-right">
-								<div class="icon-wrapper"> 
-									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
-								</div>
-								<h2>Teeth Whitening</h2>
-								<p>Tooth lightening involves the utilization of peroxide-based materials to discolour teeth.</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6">
-							<div class="box top_services_sec wow fadeInUp" data-aos="fade-up">
-								<div class="icon-wrapper"> 
-									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
-								</div>
-								<h2>Root Canal</h2>
-								<p>Dental implants provide a strong foundation for permanent or removable prosthesis.</p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6">
-							<div class="box top_services_sec wow fadeInUp" data-aos="fade-up">
-								<div class="icon-wrapper"> 
-									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
-								</div>
-								<h2>Cosmetic Design</h2>
-								<p>Dentistry isn't any longer simply a case of filling and removing teeth. </p>
-							</div>
-						</div>
-						<div class="col-md-3 col-sm-6">
-							<div class="box top_services_sec wow fadeInUp" data-aos="fade-left">
-								<div class="icon-wrapper"> 
-									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
-								</div>
-								<h2> Dental Tourism</h2>
-								<p>Dental business is of course catching on in no time, though' the conception remains new.</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
 			<section class="matrix-section services_home">
 				<div class="container">
 					<div class="heading-matix wow fadeInUp" data-aos="fade-up">
@@ -155,6 +113,134 @@
 								</div>
 							</div>
 							
+						</div>
+					</div>
+					
+				</div>
+			</section>
+			<section class="matrix-section top-services" style="background-image: url('images/backgrounds/bg-top-services.jpg')">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="heading-matix wow fadeInUp" data-aos="fade-up">
+								<h2 class="heading-main text-white">Our Dental <span>Gallery</span></h2>
+								<p class="heading-sub text-white">Begin and end your day with a smile!</p>
+								<img src="images/icons/dental-icon-service.png" class="img_icon" alt="Matrix Dental and Skin Lounge">
+							</div>
+						</div>
+						<div class="col-md-4">
+							<a data-fancybox="photo-gallery" class="" href="images/service/4.jpg">						
+								<div class="gallery_img_container">
+									<img class="img-fluid" src="images/service/3.jpg" alt="">
+									<div class="overlay">
+										<h2>Image Title</h2>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a data-fancybox="photo-gallery" class="" href="images/service/4.jpg">						
+								<div class="gallery_img_container">
+									<img class="img-fluid" src="images/service/4.jpg" alt="">
+									<div class="overlay">
+										<h2>Image Title</h2>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-4">
+							<a data-fancybox="photo-gallery" class="" href="images/service/4.jpg">						
+								<div class="gallery_img_container">
+									<img class="img-fluid" src="images/service/1.jpg" alt="">
+									<div class="overlay">
+										<h2>Image Title</h2>
+									</div>
+								</div>
+							</a>
+						</div>
+					</div>
+					<!-- <div class="row">
+						<div class="col-md-3 col-sm-6">
+							<div class="box top_services_sec wow fadeInUp" data-aos="fade-right">
+								<div class="icon-wrapper"> 
+									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
+								</div>
+								<h2>Teeth Whitening</h2>
+								<p>Tooth lightening involves the utilization of peroxide-based materials to discolour teeth.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="box top_services_sec wow fadeInUp" data-aos="fade-up">
+								<div class="icon-wrapper"> 
+									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
+								</div>
+								<h2>Root Canal</h2>
+								<p>Dental implants provide a strong foundation for permanent or removable prosthesis.</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="box top_services_sec wow fadeInUp" data-aos="fade-up">
+								<div class="icon-wrapper"> 
+									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
+								</div>
+								<h2>Cosmetic Design</h2>
+								<p>Dentistry isn't any longer simply a case of filling and removing teeth. </p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div class="box top_services_sec wow fadeInUp" data-aos="fade-left">
+								<div class="icon-wrapper"> 
+									<img src="images/icons/service-icon-home-1.png" class="img-fluid" alt="Oral & Maxillofacial Surgery">
+								</div>
+								<h2> Dental Tourism</h2>
+								<p>Dental business is of course catching on in no time, though' the conception remains new.</p>
+							</div>
+						</div>
+					</div> -->
+				</div>
+			</section>
+			
+			
+			
+			<section class="matrix-section doctors_home">
+				<div class="container">
+					<div class="heading-matix wow fadeInUp" data-aos="fade-up">
+						<h2 class="heading-main">Our Distinguished <span>Dental Specialists</span></h2>
+						<p class="heading-sub">A smile is a curve that sets everything straight!</p>
+						<img src="images/icons/dental-icon-specialist.png" class="img_icon" alt="Matrix Dental and Skin Lounge">
+					</div>
+					<div class="doctors">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="doc_detials clearfix wow fadeInUp" data-aos="zoom-out-down">
+									<div class="doc_image">
+										<img src="images/saurabh-nagpal.jpg" class="img-fluid" alt="">
+									</div>
+									<div class="doc_info">
+										<h4>Dr. Sourabh Nagpal (MDS)</h4>
+										<span class="badge badge-color">Prosthodontist & Implantologist</span>
+										<p>Consult Dentist Dr. Sourabh Nagpal, one of the best Dentist in Vasant kunj Delhi. Dr. Sourabh is running one of the best Implantology Centre in South Delhi, Along with being a degree holder Implantologist.</p>
+										<div class="text-right">
+											<a href="javascript:void(0)" class="btn btn-raised small_btn">View Details</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="doc_detials clearfix wow fadeInUp" data-aos="zoom-out-down">
+									<div class="doc_image">
+										<img src="images/poonam-nagpal.jpg" class="img-fluid" alt="">
+									</div>
+									<div class="doc_info">
+										<h4>Dr. Poonam Nagpal (MDS - Gold Medilist)</h4>
+										<span class="badge badge-color">Root Canal Specialist Cosmetic Dentist</span>
+										<p>Dr. Poonam Nagpal is a renowned name in the field of dentistry in Vasant kunj New Delhi and has been famous for her skills in Cosmetic Dentistry, equipped with Course of Aesthetic Dermal Injectable.</p>
+										<div class="text-right">
+											<a href="javascript:void(0)" class="btn btn-raised small_btn">View Details</a>
+										</div>
+									</div>
+								</div>
+							</div>
 						</div>
 					</div>
 					
@@ -252,8 +338,15 @@
 											<!-- <span class="error text-danger">Please Enter Email ID</span> -->
 										</div>
 									</div>
+									<div class="col-md-12">
+										<div class="form-group wow fadeInUp">
+											<label for="message" class="bmd-label-floating">Message</label>
+											<textarea class="form-control" id="message" rows="3" style="resize: none"></textarea>
+											<i class="fas fa-file-alt prefix"></i>
+										</div>
+									</div>
 									<div class="col-md-12 mt-3 wow fadeInUp" data-aos="fade-up">
-										<img src="images/captcha.jpg" class="img-fluid" alt="">
+										<img src="images/captcha.jpg" style="width: 35%" class="img-fluid" alt="">
 									</div>
 									<div class="col-md-12 text-center mt-4 wow fadeInUp" data-aos="fade-up">
 										<a href="javascript:void(0)" class="btn btn btn-raised matrix_btn">Book Now</a>
@@ -262,51 +355,6 @@
 							</form>
 						</div>
 					</div>
-				</div>
-			</section>
-			
-			<section class="matrix-section doctors_home">
-				<div class="container">
-					<div class="heading-matix wow fadeInUp" data-aos="fade-up">
-						<h2 class="heading-main">Our Distinguished <span>Dental Specialists</span></h2>
-						<p class="heading-sub">A smile is a curve that sets everything straight!</p>
-						<img src="images/icons/dental-icon-specialist.png" class="img_icon" alt="Matrix Dental and Skin Lounge">
-					</div>
-					<div class="doctors">
-						<div class="row">
-							<div class="col-md-6">
-								<div class="doc_detials clearfix wow fadeInUp" data-aos="zoom-out-down">
-									<div class="doc_image">
-										<img src="images/saurabh-nagpal.jpg" class="img-fluid" alt="">
-									</div>
-									<div class="doc_info">
-										<h4>Dr. Sourabh Nagpal (MDS)</h4>
-										<span class="badge badge-color">Prosthodontist & Implantologist</span>
-										<p>Consult Dentist Dr. Sourabh Nagpal, one of the best Dentist in Vasant kunj Delhi. Dr. Sourabh is running one of the best Implantology Centre in South Delhi, Along with being a degree holder Implantologist.</p>
-										<div class="text-right">
-											<a href="javascript:void(0)" class="btn btn-raised small_btn">View Details</a>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col-md-6">
-								<div class="doc_detials clearfix wow fadeInUp" data-aos="zoom-out-down">
-									<div class="doc_image">
-										<img src="images/poonam-nagpal.jpg" class="img-fluid" alt="">
-									</div>
-									<div class="doc_info">
-										<h4>Dr. Poonam Nagpal (MDS - Gold Medilist)</h4>
-										<span class="badge badge-color">Root Canal Specialist Cosmetic Dentist</span>
-										<p>Dr. Poonam Nagpal is a renowned name in the field of dentistry in Vasant kunj New Delhi and has been famous for her skills in Cosmetic Dentistry, equipped with Course of Aesthetic Dermal Injectable.</p>
-										<div class="text-right">
-											<a href="javascript:void(0)" class="btn btn-raised small_btn">View Details</a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					
 				</div>
 			</section>
 		</div>
@@ -318,7 +366,35 @@
 	<script>
 
 		$(document).ready(function() {
-			$('.photo_gallery').fancybox({});
+			$('a[href*="#"]').not('[href="#"]').not('[href="#0"]').click(function(event) {
+				if (
+					location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+					&& 
+					location.hostname == this.hostname
+					) {
+
+					var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+
+				if (target.length) {
+
+					event.preventDefault();
+					$('html, body').animate({
+						scrollTop: target.offset().top
+					}, 1000, function() {
+
+						var $target = $(target);
+						$target.focus();
+						if ($target.is(":focus")) { 
+							return false;
+						} else {
+							$target.attr('tabindex','-1');
+							$target.focus();
+						};
+					});
+				}
+			}
+		});
 			$('#mainSlider').owlCarousel({
 				items:1,
 				autoplay : true,

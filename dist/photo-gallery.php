@@ -137,9 +137,9 @@
 	<?php  include 'include/footer.php'; ?>
 	<?php  include 'include/foot.php'; ?>
 	<script>
-		$('[data-fancybox="photo-gallery"]').fancybox({
-			
-		});
+		// Gallery Filter
+		var containerEl = document.querySelector('.items-filter');
+		var mixer = mixitup(containerEl);
 	</script>
 </body>
 </html>
