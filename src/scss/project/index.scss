@@ -703,3 +703,54 @@ span.error{
 		}
 	}
 }
+// Contact
+.map-responsive{
+	overflow:hidden;
+	padding-bottom:25.25%;
+	position:relative;
+	height:0;
+	iframe{
+		left:0;
+		top:0;
+		height:100%;
+		width:100%;
+		position:absolute;
+	}
+}
+
+.contact_matrix_dental{
+	padding: 3rem 0 3rem;
+	position: relative;
+	background-image: url('../images/contact-img.jpg');
+	background-position: left top;
+	-webkit-background-size: cover;
+	background-size: cover;
+	.contact_info{
+		// position: absolute;
+		// top: 50%;
+		// left: 50%;
+		// transform: translateY(-50%);
+		// width: 44%;
+		.title{
+			font-size: 30px;
+			color: $prime;
+			margin-bottom: 20px;
+		}
+		.icon_text{
+			font-size: 14px;
+			padding-left: 3rem;
+			position: relative;
+			line-height: 25px;
+			margin-bottom: 15px;
+			&.phone{
+				margin-bottom: 25px;
+			}
+			img{
+				position: absolute;
+				left: 0;
+				top: -5px;
+				width: 33px;
+			}
+		}
+	}
+}

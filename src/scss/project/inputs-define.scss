@@ -4,7 +4,7 @@
 		margin-left: 1.8rem;
 		width: 92%;
 		width: calc(100% - 1.8rem);	
-		color: #ffffff;	
+		color: #000;	
 		&:focus{
 			& ~ .prefix{
 				color:$prime;
@@ -15,7 +15,7 @@
 		margin-left: 1.8rem;
 		width: 92%;
 		width: calc(100% - 1.8rem);	
-		color: #ffffff;	
+		color: #000;	
 		&:focus{
 			& ~ .prefix{
 				color:$prime;
