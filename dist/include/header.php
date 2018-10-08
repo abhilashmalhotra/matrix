@@ -46,7 +46,7 @@
 						<div class="top_actions row align-items-center mt-1">
 							<div class="icon col-2"><i class="fas fa-envelope fa-2x"></i></div>
 							<div class="info col-10">
-								<a href="javascript:void(0)" class="d-block">clinicmatrix@gmail.com</a>								
+								<a href="javascript:void(0)" class="d-block" data-toggle="modal" data-target="#bookAnApointment">clinicmatrix@gmail.com</a>								
 							</div>
 						</div>
 						
@@ -104,7 +104,21 @@
 			</ul>
 			<ul class="navbar-nav ml-auto">
 				<li class="nav-item active">
-					<a class="nav-link" href="#requestAppointment"><i class="far fa-calendar-alt"></i>  Request An Appointment</a>
+					<?php 
+					if($activePage == 'index'){
+						?>
+						<a class="nav-link" href="#requestAppointment"><i class="far fa-calendar-alt"></i>  Request An Appointment</a>
+						<?php
+
+					}
+					else{
+						?>
+						<a href="javascript:void(0)" class="nav-link" data-toggle="modal" data-target="#bookAnApointment"><i class="far fa-calendar-alt"></i>  Request An Appointment</a>
+						<?php 
+
+					} 
+					?>	
+
 				</li>
 			</ul> 
 		</div>

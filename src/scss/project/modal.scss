@@ -1,0 +1,25 @@
+.requestModal{
+	.modal-content{
+		border-radius: 6px;
+		overflow: hidden;
+		border-top: 6px solid $prime;
+	}
+	.content_modal{
+		.book_icon{
+			width: 50px;
+			@include respond-to($tablet-portrait) {
+				width: 50px;
+			}
+		}
+		.form_book{
+			width: 80%;
+			margin:0 auto;
+			.form-group{
+				margin-bottom: 0.5rem;
+				.error{
+					padding-left: 27px;
+				}
+			}
+		}
+	}
+}

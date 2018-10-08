@@ -136,6 +136,7 @@
 	</div>
 	<?php  include 'include/footer.php'; ?>
 	<?php  include 'include/foot.php'; ?>
+	<?php include 'include/modal.php'; ?>
 	<script>
 		// Gallery Filter
 		var containerEl = document.querySelector('.items-filter');

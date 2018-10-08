@@ -104,5 +104,6 @@
 	</div>
 	<?php  include 'include/footer.php'; ?>
 	<?php  include 'include/foot.php'; ?>
+	<?php include 'include/modal.php'; ?>
 </body>
 </html>

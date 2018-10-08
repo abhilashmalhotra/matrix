@@ -117,6 +117,7 @@
 	</div>
 	<?php  include 'include/footer.php'; ?>
 	<?php  include 'include/foot.php'; ?>
+	<?php include 'include/modal.php'; ?>
 	<!-- <script src="js/jquery.sticky-kit.min.js"></script> -->
 	<script>
 	

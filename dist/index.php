@@ -221,7 +221,7 @@
 										<span class="badge badge-color">Prosthodontist & Implantologist</span>
 										<p>Consult Dentist Dr. Sourabh Nagpal, one of the best Dentist in Vasant kunj Delhi. Dr. Sourabh is running one of the best Implantology Centre in South Delhi, Along with being a degree holder Implantologist.</p>
 										<div class="text-right">
-											<a href="javascript:void(0)" class="btn btn-raised small_btn">View Details</a>
+											<a href="dr-sourabh-nagpal.php" class="btn btn-raised small_btn">View Details</a>
 										</div>
 									</div>
 								</div>
@@ -236,7 +236,7 @@
 										<span class="badge badge-color">Root Canal Specialist Cosmetic Dentist</span>
 										<p>Dr. Poonam Nagpal is a renowned name in the field of dentistry in Vasant kunj New Delhi and has been famous for her skills in Cosmetic Dentistry, equipped with Course of Aesthetic Dermal Injectable.</p>
 										<div class="text-right">
-											<a href="javascript:void(0)" class="btn btn-raised small_btn">View Details</a>
+											<a href="dr-poonam-nagpal.php" class="btn btn-raised small_btn">View Details</a>
 										</div>
 									</div>
 								</div>
@@ -359,8 +359,10 @@
 			</section>
 		</div>
 	</div>
+
 	<?php  include 'include/footer.php'; ?>
 	<?php  include 'include/foot.php'; ?>
+	<?php include 'include/modal.php'; ?>
 	<!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.25.0/sweetalert2.min.js"></script> -->
 
 	<script>
