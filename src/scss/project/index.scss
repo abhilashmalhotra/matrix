@@ -875,3 +875,36 @@ span.error{
 		}
 	}
 }
+
+
+// Page Error
+.page-error {
+	height: 90vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background: #efefef;
+}
+
+.error-content h2 {
+	font-size: 133px;
+	font-weight: 700;
+	color: $second;
+	text-shadow: 6px 6px 19px rgba(0, 0, 0, 0.35);
+}
+
+.error-content img {
+	margin-top: -220px;
+}
+
+.error-content h4 {
+	font-size: 27px;
+	font-weight: 700;
+	color: $second;
+	text-shadow: 3px 3px 11px rgba(0, 0, 0, 0.2);
+	text-transform: capitalize;
+	margin-top: -161px;
+}
