@@ -24,6 +24,9 @@
 .text-white{
 	color: #fff !important; 
 }
+.datepicker{
+	background-color: transparent !important;
+}
 .main_banner{
 	position: relative;
 	z-index: 0;
@@ -453,10 +456,13 @@
 		font-size: 18px;
 		text-transform: uppercase;
 		font-weight: 800;
+		min-height: 35px;
 	}
 	p {
 		margin-bottom: 10px;
-		font-size: 11px;
+		font-size: 13px;
+		text-align: justify;
+		min-height: 80px;
 	}
 }
 
@@ -712,6 +718,15 @@ span.error{
 	padding-bottom:25.25%;
 	position:relative;
 	height:0;
+	@include respond-to($tablet-landscape) {
+		padding-bottom:42.25%;
+	}
+	@include respond-to($tablet-portrait) {
+		padding-bottom:42.25%;
+	}
+	@include respond-to($phone) {
+		padding-bottom:80%;
+	}
 	iframe{
 		left:0;
 		top:0;
@@ -728,11 +743,20 @@ span.error{
 	background-position: center;
 	-webkit-background-size: cover;
 	background-size: cover;
+	@include respond-to($tablet-portrait) {
+		background-position: left;		
+	}
 	.contact_info{
 		padding: 20px;
 		background: rgba(180, 108, 142, 0.0784313725490196);
 		-webkit-box-shadow: 0 4px 8px 0 rgba(0,0,0,.12), 0 2px 4px 0 rgba(0,0,0,.08);
 		box-shadow: 0 4px 8px 0 rgba(0,0,0,.12), 0 2px 4px 0 rgba(0,0,0,.08);
+		@include respond-to($tablet-portrait) {
+			background-color: rgba(255,255,255,0.7);	
+		}
+		@include respond-to($phone) {
+			background-color: rgba(255,255,255,0.91);
+		}
 		.title{
 			font-size: 30px;
 			color: $prime;

@@ -63,13 +63,20 @@ $(document).ready(function() {
 			$(this).append('...');
 		}
 	});
+	$('.single-service p').each(function() {
+		if($(this).text().length > 125){
+			$(this).text($(this).text().substr(0,123));
+			$(this).append('...');
+		}
+	});
 	$('#gallerydata li a').click(function(event) {
 		$(this).addClass('active')
 		$(this).parent().siblings().find('a').removeClass('active');
 	});
 
 	$('[data-fancybox="photo-gallery"]').fancybox({});
-
+	$('.datepicker').dateDropper();
+	$("#compare-img").twentytwenty();
 
 	
 });

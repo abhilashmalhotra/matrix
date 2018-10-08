@@ -35,7 +35,9 @@
 			<section class="matrix-section">
 				<div class="container">
 					<div class="row">
-						
+						<div class="col-md-12 mb-3 text-center">
+							<a href="javscript:void(0)" class="btn btn btn-raised matrix_btn" data-toggle="modal" data-target="#feedbackModal"> Write a Review</a>
+						</div>
 						<div class="col-md-4">
 							<div class="feedback_container">
 								<div class="feedback_content">
@@ -105,5 +107,7 @@
 	<?php  include 'include/footer.php'; ?>
 	<?php  include 'include/foot.php'; ?>
 	<?php include 'include/modal.php'; ?>
+	
+
 </body>
 </html>

@@ -332,8 +332,8 @@
 									</div>
 									<div class="col-md-6 col-sm-6">
 										<div class="form-group wow fadeInUp" data-aos="fade-up">
-											<label for="exampleInputEmail1" class="bmd-label-floating">Date</label>
-											<input type="text" class="form-control" id="exampleInputEmail1">
+											<label for="datepicker-data" class="bmd-label-floating">Date</label>
+											<input type="text" class="form-control datepicker" id="datepicker-data" data-translate-mode="false" data-modal="true" data-large-default="true" data-large-mode="true" data-init-set="false">
 											<i class="far fa-calendar-alt prefix"></i>
 											<!-- <span class="error text-danger">Please Enter Email ID</span> -->
 										</div>

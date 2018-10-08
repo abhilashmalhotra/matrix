@@ -7,5 +7,7 @@
 	<script src="<?php echo $siteUrl ?>js/owl.carousel.min.js"></script>
 	<script src="<?php echo $siteUrl ?>js/jquery.fancybox.min.js"></script>
 	<script src="<?php echo $siteUrl ?>js/mixitup.min.js"></script>
+	<script src="<?php echo $siteUrl ?>js/datedropper.min.js"></script>
+	<script src="<?php echo $siteUrl ?>js/jquery.twentytwenty.js"></script>
 	<script src="<?php echo $siteUrl ?>js/scripts.js"></script>
 	

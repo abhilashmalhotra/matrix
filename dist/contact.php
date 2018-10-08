@@ -67,7 +67,7 @@
 												<!-- <span class="error text-danger">Please Enter Mobile No.</span> -->
 											</div>
 										</div>
-										<div class="col-md-4 col-sm-6">
+										<div class="col-md-4 col-sm-12">
 											<div class="form-group wow fadeInUp">
 												<label for="exampleInputEmail1" class="bmd-label-floating">Email ID</label>
 												<input type="text" class="form-control" id="exampleInputEmail1">

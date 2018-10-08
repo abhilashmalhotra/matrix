@@ -14,7 +14,9 @@
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 <link rel="stylesheet" href="<?php echo $siteUrl ?>css/bootstrap-material-design.min.css">
 <link rel="stylesheet" href="<?php echo $siteUrl ?>css/owl.carousel.min.css">
+<link rel="stylesheet" href="<?php echo $siteUrl ?>css/twentytwenty.css">
 <link rel="stylesheet" href="<?php echo $siteUrl ?>css/jquery.fancybox.min.css">
+<link rel="stylesheet" href="<?php echo $siteUrl ?>css/datedropper.min.css">
 <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.25.0/sweetalert2.min.css"> -->
 
 <link rel="stylesheet" href="<?php echo $siteUrl ?>css/styles.css">
